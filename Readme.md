@@ -4,4 +4,4 @@ See my running records [here](https://github.com/conge/RunningStreak/blob/master
 
 For more information please see [United States Running Streak Association, Inc.][1]
 
-[1]:www.runeveryday.com
+[1]:http://www.runeveryday.com
