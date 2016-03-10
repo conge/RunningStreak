@@ -1,4 +1,5 @@
 streak#,date,startTime,endTime,runningTime(min),Distance(mile),weather,temperature(C)
+70,20150310,08:55 am,09:16 am,21,2.6,Rain,12
 69,20150309,05:25 pm,05:45 pm,15,1.8,Cloudy,20
 68,30160308,09:05 am,09:35 am,30,3.8,Sunny,7
 67,20160307,09:45 pm,10:05 pm,20,2.6,Cloudy,4
