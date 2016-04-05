@@ -1,4 +1,5 @@
 streak#,date,startTime,endTime,runningTime(min),Distance(mile),weather,temperature(C)
+95,20160404,11:25 pm,11:44 pm,19,2.4,Clear,23
 94,20160403,11:35 pm,11:50 pm,14,1.8,Clear,18
 93,20160402,11:33 pm,11:48 pm,15,2.0,Snow,1
 92,20160401,11:39 pm,11:59 pm,20,2.7,Clear,4
