@@ -1,5 +1,5 @@
 streak#,date,startTime,endTime,runningTime(min),Distance(mile),weather,temperature(C)
-159,
+159,20160607,11:45 pm,12:01 am,16,2.0,Clear,17
 158,20160606,11:18 pm,11:34 pm,16.2.0,Cloudy,17
 157,20160605,09:04 am,10:10 am,16,2.0,Sunny,24
 156,20160604,10:03 pm,10:28 pm,25,3.4,Cloudy,21
