@@ -1,4 +1,5 @@
 streak#,date,startTime,endTime,runningTime(min),Distance(mile),weather,temperature(C)
+232,20160819,06:40 am,07:00 am,20,2.6,Clear,15
 231,20160818,06:57 am,07:17 am,20,2.6,Clear,15
 230,20160817,07:08 am,07:22 am,14,1.8,Clear,14
 229,20160816,07:03 am,07:23 am,20,2.8,Clear,15
