@@ -1,4 +1,6 @@
 streak#,date,startTime,endTime,runningTime(min),Distance(mile),weather,temperature(C)
+326,20161121,07:20 am,07:43 am,23,3.2,Cluody,9
+325,20161120,02:35 pm,02:58 pm,23,3.2,Cloudy,11
 324,20161119,04:15 pm,04:37 pm,22,3.2,Cloudy,11
 323,20161118,07:35 am,07:57 am,22,3.2,Cloudy,6
 322,20161117,07:35 am,07:58 am,23,3.2,Cloudy,7
