@@ -1,0 +1,22 @@
+---
+title: "RunningSummary2016"
+author: "Qingyang Li"
+date: "12/29/2016"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r datain}
+df <- read.csv("../runningRecords2016.csv")
+```
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
