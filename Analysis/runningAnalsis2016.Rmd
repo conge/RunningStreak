@@ -6,17 +6,16 @@ output: word_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = F)
 ```
 
 
 
 ```{r datain}
+library(printr)
 df <- read.csv("../runningRecords2016.csv")
 ```
 
 ```{r pressure, echo=FALSE}
-plot(pressure)
+summary(df)
 ```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
