@@ -18,4 +18,8 @@ df <- read.csv("../runningRecords2016.csv")
 
 ```{r pressure, echo=FALSE}
 summary(df)
+table(df$weather)
+sum(grepl(x=df$startTime, pattern = "am"))
+sum(grepl(x=df$startTime, pattern = "pm"))
+plot(x=df$date,grepl(x=df$startTime, pattern = "am"))
 ```
