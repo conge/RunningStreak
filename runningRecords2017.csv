@@ -1,4 +1,5 @@
 streak#,date,startTime,endTime,runningTime(min),Distance(mile),weather,temperature(C)
+475,20170419,07：40 am,08:19 am,39,4.7,Cloudy,7
 474,20170418,07:37 am,08:10 am,33,4.5,Cloudy,8
 473,20170417,07:30 am,08:06 am,36,4.9,Cloudy,5
 472,20170416,09:00 am,09:33 am,33,4.3,Cloudy,5
@@ -37,7 +38,7 @@ streak#,date,startTime,endTime,runningTime(min),Distance(mile),weather,temperatu
 439,20170314,01:15 pm,01:27 pm,22,3.5,Rain,11
 438,20170313,07:50 am,08:20 am,30,4.3,Rain,9
 437,20170312,11:26 am,11:56 am,30,3.9,Rain,9
-436,20170311,02:18 pm,02:48 pm,30,4.3,Clody,9
+436,20170311,02:18 pm,02:48 pm,30,4.3,Cloudy,9
 435,20170310,07:05 am,07:35 am,30,4.4,Cloudy,9
 434,20170309,07:19 am,07:43 am,24,3.2,Cloudy,4
 433,20170308,07:20 am,07:44 am,24,3.2,Mostly Cloudy,2
