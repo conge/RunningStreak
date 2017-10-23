@@ -1,4 +1,5 @@
 streak#,date,startTime,endTime,runningTime(min),Distance(mile),weather,temperature(C)
+661,20171022,11:59 pm,11:59 pm,12,1.7,Cloudy,10
 660,20171021,11:40 am,12:05 pm,30,3.2,Rain,9
 659,20171020,05:05 pm,05:38 pm,33,4.3,Cloudy,10
 658,20171019,11:40 pm,12:00 am,20,2.7,Rain,9
