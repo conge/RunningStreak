@@ -5,3 +5,4 @@ streak#,date,startTime,endTime,runningTime(min),Distance(mile),weather,temperatu
 734,20180103,08:22 am,08:53 am,31,4.1,Sunny,1
 733,20180102,05:00 pm,05:32 pm,32,4.1,Cloudy,5
 732,20180101,08:57 am,09:22 am,25,3.3,Sunny,0
+731,20171231,06:01 pm,06:1 pm,15,2.1,Clear,2
