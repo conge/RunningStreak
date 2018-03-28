@@ -1,5 +1,6 @@
 streak#,date,startTime,endTime,runningTime(min),Distance(mile),weather,temperature(C)
-817,20180327,08:10 am,08:43 am,4.3,33,Cloudy,5
+818,20180328,08:33 am,09:10 am,37,4.9,Cloudy,6
+817,20180327,08:10 am,08:43 am,33,4.3,Cloudy,5
 816,20180326,05:40 pm,06:13 pm,33,4.2,Cloudy,4
 815,20180325,08:00 am,08:27 am,27,3.3,Cloudy,5
 814,20180324,09:36 am,09:57 am,21,2.7,Cloudy,4
