@@ -1,366 +1,366 @@
-streak#,date,startTime,endTime,runningTime(min),Distance(mile),weather,temperature(C),Shoes
-731,20171231,06:01 pm,06:16 pm,15,2.1,Clear,2,VaporGlove2_02
-730,20171230,12:43 pm,01:16 pm,33,4.1,Cloudy,8,VaporGlove2_02
-729,20171229,05:37 pm,06:01 pm,24,3.3,Rain,11,VaporGlove2_02
-728,20171228,09:04 am,09:35 am,31,4.1,Rain,7,VaporGlove2_02
-727,20171227,08:54 am,09:30 am,36,4.8,Cloudy,3,VaporGlove2_02
-726,20171226,09:00 am,09:37 am,37,4.8,Cloudy,0,VaporGlove2_02
-725,20171225,06:02 pm,06:26 pm,24,3.2,Cloudy,1,VaporGlove2_02
-724,20171224,04:38 pm,05:05 pm,27,3.1,Snow,3,VaporGlove2_02
-723,20171223,10:29 am,10:49 am,20,2.1,Sunny,1,VaporGlove2_02
-722,20171222,09:08 am,09:45 am,37,4.2,Rainy,4,VaporGlove2_02
-721,20171221,08:47 am,09:20 am,33,4.1,Sunny,2,VaporGlove2_02
-720,20171220,08:32 am,09:08 am,36,4.8,Sunny,4,VaporGlove2_02
-719,20171219,05:26 pm,06:03 pm,37,4.3,Cloudy,4,VaporGlove2_02
-718,20171218,08:35 am,09:12 am,37,4.8,Rain,7,VaporGlove2_02
-717,20171217,09:24 am,09:48 pm,24,3.3,Rain,4,VaporGlove2_02
-716,20171216,09:03 pm,09:28 pm,25,3.3,Rain,7,VaporGlove2_02
-715,20171215,09:17 pm,09:49 am,32,4.2,Cloudy,4,VaporGlove2_02
-714,20171214,08:29 am,09:00 am,35,4.2,Sunny,4,VaporGlove2_02
-713,20171213,08:25 am,09:02 am,37,4.8,Cloudy,4,VaporGlove2_02
-712,20171212,08:44 am,09:21 am,37,4.8,Cloudy,3,VaporGlove2_02
-711,20171211,08:02 am,08:38 am,36,4.8,Fog,0,VaporGlove2_02
-710,20171210,09:07 am,09:47 am,40,4.8,Sunny,2,VaporGlove2_02
-709,20171209,09:16 am,09:41 am,25,3.1,Fog,0,VaporGlove2_02
-708,20171208,10:25 pm,10:50 pm,25,3.1,Fog,1,VaporGlove2_02
-707,20171207,08:45 am,09:27 am,32,4.1,Sunny,3,VaporGlove2_02
-706,20171206,05:23 pm,05:56 pm,33,4.2,Cloudy,5,VaporGlove2_02
-705,20171205,05:42 pm,06:05 pm,23,3.4,Cloudy,5,VaporGlove2_02
-704,20171204,04:39 pm,05:12 pm,33,4.2,Cloudy,5,VaporGlove2_02
-703,20171203,09:05 am,09:47 am,32,4.1,Cloudy,4,VaporGlove2_02
-702,20171202,09:20 pm,09:45 pm,25,3.4,Rain,5,VaporGlove2_02
-701,20171201,08:54 am,09:26 am,32,4.3,Cloudy,6,VaporGlove2_02
-700,20171130,05:45 pm,06:17 pm,32,4.3,Cloudy,5,VaporGlove2_02
-699,20171129,08:41 am,09:16 am,35,4.8,Cloudy,7,VaporGlove2_02
-698,20171128,08:11 am,08:48 am,37,4.8,Rain,8,VaporGlove2_02
-697,20171127,05:09 pm,05:40 pm,31,4.1,Rain,5,VaporGlove2_02
-696,20171126,06:09 pm,06:32 pm,23,3.4,Rain,8,VaporGlove2_02
-695,20171125,08:45 am,09:07 am,22,3.4,Cloudy,8,VaporGlove2_02
-694,20171124,11:24 pm,11:37 pm,13,2,Cloudy,10,VaporGlove2_02
-693,20171123,01:13 pm,01:35 am,22,3.4,Cloudy,13,VaporGlove2_02
-692,20171122,08:17 am,08:53 am,36,4.8,Cloudy,13,VaporGlove2_02
-691,20171121,08:10 am,08:45 am,36,4.8,Rain,6,VaporGlove2_02
-690,20171120,04:38 pm,05:10 pm,32,4.3,Cloudy,5,VaporGlove2_02
-689,20171119,08:24 am,09:36 am,72,8.8,Cloudy,6,VaporGlove2_02
-688,20171118,08:42 am,09:12 am,30,4.3,Cloudy,8,VaporGlove2_02
-687,20171117,08:09 am,08:44 am,35,4.8,Cloudy,6,VaporGlove2_02
-686,20171116,05:39 pm,06:10 pm,31,4.2,Cloudy,9,VaporGlove2_02
-685,20171115,05:00 pm,05:30 pm,30,4.2,Cloudy,9,VaporGlove2_02
-684,20171114,07:52 am,08:27 am,35,4.8,Cloudy,8,VaporGlove2_02
-683,20171113,08:34 am,09:10 am,36,4.8,Cloudy,8,VaporGlove2_02
-682,20171112,09:15 pm,09:40 pm,25,3.4,Rain,8,VaporGlove2_02
-681,20171111,08:20 am,08:50 am,30,3.8,Rain,6,VaporGlove2_02
-680,20171110,08:02 am,08:37 am,35,4.8,Cloudy,6,VaporGlove2_02
-679,20171109,08:12 am,08:45 am,33,4.2,Rain,8,VaporGlove2_02
-678,20171108,05:27 pm,06:00 pm,31,4.2,Rain,7,VaporGlove2_02
-677,20171107,05:35 pm,06:07 pm,32,4.2,Cloudy,6,VaporGlove2_02
-676,20171106,05:34 pm,06:07 pm,33,4.2,Cloudy,6,VaporGlove2_02
-675,20171105,08:50 pm,09:14 pm,24,3.4,Cloudy,1,VaporGlove2_02
-674,20171104,09:08 am,09:35 am,27,3.8,Cloudy,1,VaporGlove2_02
-673,20171103,06:08 am,06:28 am,20,2.7,Cloudy,13,VaporGlove2_02
-672,20171102,08:19 am,08:52 am,33,4.8,Cloudy,10,VaporGlove2_02
-671,20171101,05:39 pm,06:10 pm,31,4,Cloudy,10,VaporGlove2_02
-670,20171031,08:41 pm,09:05 pm,24,3.3,Clear,8,VaporGlove2_02
-669,20171030,05:45 pm,06:16 pm,31,4,Sunny,9,VaporGlove2_02
-668,20171029,08:55 am,09:25 pm,30,2.8,Fog,10,VaporGlove2_02
-667,20171028,09:24 pm,09:44 pm,20,2.7,Cloudy,11,VaporGlove2_02
-666,20171027,08:35 am,09:07 am,32,4.1,Sunny,10,VaporGlove2_02
-665,20171026,05:37 pm,06:08 pm,31,4.1,Sunny,14,VaporGlove2_02
-664,20171025,08:42 am,09:17 am,35,4.8,Cloudy,10,VaporGlove2_02
-663,20171024,05:38 pm,06:10 pm,32,4.4,Sunny,14,VaporGlove2_02
-662,20171023,08:31 am,09:04 am,33,4.8,Cloudy,12,VaporGlove2_02
-661,20171022,11:59 pm,11:59 pm,12,1.7,Cloudy,10,VaporGlove2_02
-660,20171021,11:40 am,12:05 pm,30,3.2,Rain,9,VaporGlove2_02
-659,20171020,05:05 pm,05:38 pm,33,4.3,Cloudy,10,VaporGlove2_02
-658,20171019,11:40 pm,12:00 am,20,2.7,Rain,9,VaporGlove2_02
-657,20171018,04:47 pm,05:20 pm,33,4.3,Rain,16,VaporGlove2_02
-656,20171017,05:44 pm,06:17 pm,33,4.3,Cloudy,13,VaporGlove2_02
-655,20171016,09:42 pm,10:05 pm,23,3.4,Cloudy,13,VaporGlove2_02
-654,20171015,08:03 am,08:23 am,20,2.9,Sunny,5,VaporGlove2_02
-653,20171014,09:22 am,09:53 am,31,3.8,Cloudy,6,VaporGlove2_02
-652,20171013,08:35 am,09:11 am,36,4.8,Sunny,8,VaporGlove2_02
-651,20171012,08:25 am,08:57 am,32,4.3,Cloudy,8,VaporGlove2_02
-650,20171011,08:12 am,08:36 am,36,4.8,Cloudy,8,VaporGlove2_02
-649,20171010,11:52 pm,00:12 am,20,2.7,Clear,8,VaporGlove2_02
-648,20171009,05:18 pm,05:50 pm,32,4.3,Sunny,19,VaporGlove2_02
-647,20171008,09:02 pm,09:26 pm,24,3.4,Cloudy,9,VaporGlove2_02
-646,20171007,02:22 pm,02:50 pm,28,3.4,Rain,16,VaporGlove2_02
-645,20171006,08:13 am,08:50 pm,37,4.8,Sunny,8,VaporGlove2_02
-644,20171005,06:05 pm,06:37 pm,32,4.3,Sunny,19,VaporGlove2_02
-643,20171004,04:30 pm,05:02 pm,32,4.3,Sunny,14,VaporGlove2_02
-642,20171003,06:25 pm,06:57 pm,32,4.3,Sunny,14,VaporGlove2_02
-641,20171002,07:05 pm,07:40 pm,35,4.4,Clear,14,VaporGlove2_02
-640,20171001,09:36 pm,10:01 pm,25,3.4,Clear,11,VaporGlove2_02
-639,20170930,10:03 am,10:35 am,32,3.8,Cloudy,14,VaporGlove2_02
-638,20170929,08:42 am,09:14 am,32,4.4,Rain,14,VaporGlove2_02
-637,20170928,06:14 pm,06:48 pm,32,4.3,Sunny,29,VaporGlove2_02
-636,20170927,05:23 pm,05:55 pm,32,4.3,Sunny,20,VaporGlove2_02
-635,20170926,05:57 pm,06:30 pm,33,4.3,Sunny,18,VaporGlove2_02
-634,20170925,05:03 pm,05:35 pm,32,4.3,Cloudy,18,VaporGlove2_02
-633,20170924,10:06 pm,10:26 pm,20,2.7,Cloudy,13,VaporGlove2_02
-632,20170923,10:29 am,10:56 am,27,3.4,Sunny,16,VaporGlove2_02
-631,20170922,08:09 am,08:44 am,35,4.8,Cloudy,11,VaporGlove2_02
-630,20170921,07:54 am,08:25 am,31,4.3,Cloudy,11,VaporGlove2_02
-629,20170920,04:39 pm,05:12 pm,33,4.3,Cloudy,15,VaporGlove2_02
-628,20170919,08:20 am,08:55 am,35,4.8,Rain,11,VaporGlove2_02
-627,20170918,04:43 pm,05:15 pm,32,4.3,Rain,13,VaporGlove2_02
-626,20170917,08:39 am,09:04 am,25,3.4,Cloudy,13,VaporGlove2_02
-625,20170916,07:15 am,07:39 am,24,3.4,Cloudy,13,VaporGlove2_02
-624,20170915,06:29 am,06:59 am,30,4,Cloudy,20,VaporGlove2_02
-623,20170914,08:58 pm,09:29 pm,31,4.5,Cloudy,19,VaporGlove2_02
-622,20170913,08:17 am,08:50 am,33,4.5,Sunny,13,VaporGlove2_02
-621,20170912,05:32 pm,06:04 pm,32,4.3,Sunny,20,VaporGlove2_02
-620,20170911,04:26 pm,04:58 pm,32,4.3,Sunny,27,VaporGlove2_02
-619,20170910,09:42 pm,10:07 pm,25,3.3,Cloudy,16,VaporGlove2_02
-618,20170909,07:15 am,07:45 am,30,4.1,Cloudy,21,VaporGlove2_02
-617,20170908,10:25 pm,10:56 pm,31,4.2,Cloudy,20,VaporGlove2_02
-616,20170907,05:40 pm,06:12 pm,32,4.3,Cloudy,26,VaporGlove2_02
-615,20170906,06:09 pm,06:41 pm,32,4.3,Cloudy,26,VaporGlove2_02
-614,20170905,08:13 am,08:47 am,34,4.8,Cloudy,23,VaporGlove2_02
-613,20170904,10:28 pm,10:51 pm,23,3.3,Cloudy,23,VaporGlove2_02
-612,20170903,09:31 pm,09:55 pm,24,3.4,Clear,26,VaporGlove2_02
-611,20170902,09:33 pm,09:57 pm,24,3.4,Clear,22,VaporGlove2_02
-610,20170901,05:23 pm,05:55 pm,32,4.3,Sunny,27,VaporGlove2_02
-609,20170831,05:20 pm,05:52 pm,32,4.3,Sunny,23,VaporGlove2_02
-608,20170830,04:28 pm,05:00 pm,32,4.3,Sunny,23,VaporGlove2_02
-607,20170829,05:32 pm,06:04 pm,32,4.3,Sunny,29,VaporGlove2_02
-606,20170828,05:23 pm,05:56 pm,33,4.3,Sunny,29,VaporGlove2_02
-605,20170827,08:45 am,09:09 am,24,3.4,Sunny,17,VaporGlove2_02
-604,20170826,08:10 am,08:35 pm,35,4.3,Sunny,14,VaporGlove2_02
-603,20170825,05:28 pm,06:00 pm,32,4.3,Sunny,22,VaporGlove2_02
-602,20170824,05:33 pm,06:05 pm,32,4.3,Sunny,21,VaporGlove2_02
-601,20170823,05:50 pm,06:20 pm,30,4.3,Cloudy,22,VaporGlove2_02
-600,20170822,05:20 pm,05:50 pm,30,4.3,Sunny,29,VaporGlove2_01
-599,20170821,05:13 pm,05:44 pm,31,4.3,Sunny,21,VaporGlove2_01
-598,20170820,09:05 am,09:50 am,45,6.1,Sunny,16,VaporGlove2_01
-597,20170819,10:00 pm,10:25 pm,25,3.3,Clear,17,VaporGlove2_01
-596,20170818,05:52 pm,06:24 pm,32,4.4,Cloudy,21,VaporGlove2_01
-595,20170817,05:50 pm,06:21 pm,31,4.4,Sunny,24,VaporGlove2_01
-594,20170816,05:42 pm,06:15 pm,33,4.6,Sunny,26,VaporGlove2_01
-593,20170815,05:43 pm,06:15 pm,32,4.4,Sunny,24,VaporGlove2_01
-592,20170814,05:26 pm,05:32 pm,32,4.3,Cloudy,21,VaporGlove2_01
-591,20170813,08:58 pm,09:22 pm,24,3.3,Cloudy,16,VaporGlove2_01
-590,20170812,10:58 pm,11:22 pm,24,3.3,Rain,17,VaporGlove2_01
-589,20170811,06:02 pm,06:34 pm,32,4.3,Cloudy,28,VaporGlove2_01
-588,20170810,06:10 pm,06:42 pm,32,4.4,Smoke,27,VaporGlove2_01
-587,20170809,05:35 pm,06:00 pm,25,3.4,Smoke,26,VaporGlove2_01
-586,20170808,05:20 pm,05:52 pm,32,4.4,Smoke,27,VaporGlove2_01
-585,20170807,05:15 pm,05:47 pm,32,4.4,Smoke,28,VaporGlove2_01
-584,20170806,11:25 pm,11:50 pm,25,3.3,Smoke,19,VaporGlove2_01
-583,20170805,10:43 pm,11:08 pm,25,3.4,Smoke,19,VaporGlove2_01
-582,20170804,10:02 pm,10:27 pm,25,3.3,Smoke,21,VaporGlove2_01
-581,20170803,08:10 am,08:43 am,33,4.5,Smoke,24,VaporGlove2_01
-580,20170802,08:18 am,08:53 am,35,4.8,Smoke,22,VaporGlove2_01
-579,20170801,08:45 am,09:19 am,34,4.8,Sunny,21,VaporGlove2_01
-578,20170731,05:16 pm,05:48 pm,32,4.3,Sunny,28,VaporGlove2_01
-577,20170730,10:08 pm,10:33 pm,25,3.4,Clear,16,VaporGlove2_01
-576,20170729,06:45 am,07:08 am,23,3.4,Sunny,15,VaporGlove2_01
-575,20170728,08:20 am,08:54 am,34,4.8,Cloudy,17,VaporGlove2_01
-574,20170727,08:20 am,08:50 am,30,4.3,Cloudy,14,VaporGlove2_01
-573,20170726,06:13 am,06:37 am,24,3.4,Sunny,16,VaporGlove2_01
-572,20170725,05:23 pm,05:56 pm,33,4.3,Sunny,28,VaporGlove2_01
-571,20170724,10:15 pm,10:39 pm,24,3.3,Clear,18,VaporGlove2_01
-570,20170723,10:07 pm,10:47 pm,40,5.5,Clear,17,VaporGlove2_01
-569,20170722,10:35 am,11:05 am,30,4.2,Sunny,23,VaporGlove2_01
-568,20170721,08:15 am,08:50 am,35,4.9,Sunny,15,VaporGlove2_01
-567,20170720,06:00 pm,06:33 pm,32,4.4,Sunny,23,VaporGlove2_01
-566,20170719,06:28 pm,07:00 pm,33,4.5,Sunny,25,VaporGlove2_01
-565,20170718,05:30 pm,06:01 pm,31,4.3,Sunny,27,VaporGlove2_01
-564,20170717,08:58 am,09:30 am,32,4.4,Sunny,17,VaporGlove2_01
-563,20170716,09:37 pm,10:01 pm,24,3.4,Clear,15,VaporGlove2_01
-562,20170715,10:50 pm,11:15 pm,25,3.4,Cloudy,17,VaporGlove2_01
-561,20170714,05:30 pm,06:03 pm,33,4.3,Sunny,25,VaporGlove2_01
-560,20170713,05:11 pm,05:31 pm,32,4.3,Sunny,26,VaporGlove2_01
-559,20170712,09:02 am,09:36 am,34,4.8,Sunny,18,VaporGlove2_01
-558,20170711,08:20 am,08:54 am,34,4.8,Cloudy,15,VaporGlove2_01
-557,20170710,08:20 am,08:55 am,35,4.8,Sunny,18,VaporGlove2_01
-556,20170709,04:05 pm,04:35 pm,30,4.3,Sunny,25,VaporGlove2_01
-555,20170708,05:05 pm,05:35 pm,30,4.3,Sunny,26,VaporGlove2_01
-554,20170707,08:35 am,09:10 am,35,4.8,Sunny,15,VaporGlove2_01
-553,20170706,07:58 am,08:30 am,31,4.5,Sunny,16,VaporGlove2_01
-552,20170705,05:28 pm,06:00 pm,32,4.4,Sunny,27,VaporGlove2_01
-551,20170704,07:00 am,07:30 am,30,4.3,Sunny,15,VaporGlove2_01
-550,20170703,08:32 am,09:03 am,36,4.8,Cloudy,13,VaporGlove2_01
-549,20170702,10:29 pm,10:59 pm,30,4.2,Cloudy,16,VaporGlove2_01
-548,20170701,08:29 am,09:17 am,48,6.1,Cloudy,13,VaporGlove2_01
-547,20170630,10:36 pm,11:02 pm,26,3.4,Cloudy,18,VaporGlove2_01
-546,20170629,08:21 am,08:52 am,31,4.5,Sunny,20,VaporGlove2_01
-545,20170628,10:38 pm,11:18 pm,40,5.7,Clear,16,VaporGlove2_01
-544,20170627,08:00 am,08:35 am,35,4.8,Cloudy,14,VaporGlove2_01
-543,20170626,08:37 am,09:12 am,35,4.8,Cloudy,15,VaporGlove2_01
-542,20170625,07:07 am,07:37 am,30,4.2,Sunny,22,VaporGlove2_01
-541,20170624,09:10 pm,09:40 pm,30,4.1,Clear,23,VaporGlove2_01
-540,20170623,08:16 am,08:51 am,35,4.8,Sunny,20,VaporGlove2_01
-539,20170622,10:35 pm,11:05 pm,30,4.1,Clear,16,VaporGlove2_01
-538,20170621,08:54 pm,09:31 pm,37,4.9,Cloudy,15,VaporGlove2_01
-537,20170620,09:00 am,09:32 am,32,4.3,Cloudy,17,VaporGlove2_01
-536,20170619,08:15 am,08:51 am,36,4.9,Cloudy,14,VaporGlove2_01
-535,20170618,08:57 am,09:37 am,40,5.1,Cloudy,14,VaporGlove2_01
-534,20170617,10:25 am,11:11 am,43,6.1,Cloudy,13,VaporGlove2_01
-533,20170616,08:05 am,08:38 am,34,4.9,Cloudy,15,VaporGlove2_01
-532,20170615,08:20 am,08:55 am,36,4.8,Cloudy,13,VaporGlove2_01
-531,20170614,07:42 am,08:28 am,36,4.8,Cloudy,12,VaporGlove2_01
-530,20170613,08:07 am,08:42 am,35,4.8,Cloudy,11,VaporGlove2_01
-529,20170612,07:56 am,08:36 am,35,4.8,Cloudy,13,VaporGlove2_01
-528,20170611,11:02 pm,11:47 pm,45,6.1,Clear,13,VaporGlove2_01
-527,20170610,04:43 pm,05:26 pm,43,6.1,Cloudy,19,VaporGlove2_01
-526,20170609,08:13 am,09:02 am,49,6.3,Cloudy,13,VaporGlove2_01
-525,20170608,11:05 pm,11:49 pm,44,6.2,Cloudy,13,VaporGlove2_01
-524,20170607,08:40 am,09:27 am,47,6.1,Sunny,17,VaporGlove2_01
-523,20170606,11:22 am,12:10 pm,48,6.1,Sunny,20,VaporGlove2_01
-522,20170605,07:05 am,07:49 am,44,6.1,Sunny,12,VaporGlove2_01
-521,20170604,10:25 am,11:30 am,65,8.6,Cloudy,14,VaporGlove2_01
-520,20170603,08:00 am,08:30 am,30,4.1,Cloudy,14,VaporGlove2_01
-519,20170602,09:00 pm,09:45 pm,45,6.2,Cloudy,14,VaporGlove2_01
-518,20170601,06:20 am,07:04 am,44,6.1,Cloudy,14,VaporGlove2_01
-517,20170531,06:40 am,07:20 am,40,5.6,Cloudy,12,VaporGlove2_01
-516,20170530,02:00 pm,02:50 pm,50,6.2,Rain,14,VaporGlove2_01
-515,20170529,04:23 pm,05:09 pm,46,5.8,Sunny,24,VaporGlove2_01
-514,20170528,07:46 am,08:26 am,40,5.5,Sunny,20,VaporGlove2_01
-513,20170527,07:52 am,08:32 am,40,4.8,Sunny,18,VaporGlove2_01
-512,20170526,07:45 am,08:25 am,40,5.7,Sunny,12,VaporGlove2_01
-511,20170525,07:30 am,08:10 am,40,5.7,Sunny,12,VaporGlove2_01
-510,20170524,12:40 pm,01:10 pm,30,4.3,Cloudy,16,VaporGlove2_01
-509,20170523,08:15 am,08:45 am,30,4.3,Sunny,19,VaporGlove2_01
-508,20170522,09:00 am,09:40 am,40,5,Sunny,19,VaporGlove2_01
-507,20170521,07:20 am,07:50 am,30,4.2,Sunny,14,VaporGlove2_01
-506,20170520,12:40 pm,01:22 pm,42,6.1,Sunny,21,VaporGlove2_01
-505,20170519,06:10 pm,06:51 pm,41,5.5,Cloudy,19,VaporGlove2_01
-504,20170518,11:25 pm,11:55 pm,30,4.2,Cloudy,13,VaporGlove2_01
-503,20170517,09:33 pm,10:13 pm,40,5.7,Cloudy,12,VaporGlove2_01
-502,20170516,08:34 am,09:04 am,30,4.1,Rain,6,VaporGlove2_01
-501,20170515,11:05 pm,11:35 pm,30,4,Rain,8,VaporGlove2_01
-500,20170514,04:00 pm,04:27 pm,27,3.4,Cloudy,16,VaporGlove2_01
-499,20170513,08:50 am,09:30 am,40,5.2,Cloudy,8,VaporGlove2_01
-498,20170512,09:14 pm,09:44 pm,30,3.9,Rain,8,VaporGlove2_01
-497,20170511,10:23 pm,10:35 pm,12,1.5,Rain,8,VaporGlove2_01
-496,20170510,06:49 am,07:20 am,31,4.2,Cloudy,16,VaporGlove2_01
-495,20170509,07:07 am,07:37 am,30,4.3,Sunny,12,VaporGlove2_01
-494,20170508,07:03 am,07:33 am,30,4.2,Cloudy,9,VaporGlove2_01
-493,20170507,08:30 am,09:10 am,40,5.1,Cloudy,8,VaporGlove2_01
-492,20170506,12:03 pm,12:43 pm,40,6,Sunny,13,VaporGlove2_01
-491,20170505,08:00 am,08:34 am,34,4.8,Cloudy,12,VaporGlove2_01
-490,20170504,08:34 am,09:08 am,34,4.8,Fog,17,VaporGlove2_01
-489,20170503,08:15 am,08:40 am,35,4.8,Cloudy,13,VaporGlove2_01
-488,20170502,08:15 am,08:45 am,30,4.4,Cloudy,7,VaporGlove2_01
-487,20170501,08:28 am,09:00 am,33,4.6,Rain,8,VaporGlove2_01
-486,20170430,11:32 am,12:02 pm,30,4.1,Sunny,9,VaporGlove2_01
-485,20170429,07:58 am,08:20 am,22,3.1,Cloudy,7,VaporGlove2_01
-484,20170428,06:06 am,06:36 am,30,4.2,Sunny,15,VaporGlove2_01
-483,20170427,07:44 am,08:19 am,35,4.8,Cloudy,6,VaporGlove2_01
-482,20170426,05:32 pm,06:04 pm,32,4.5,Rain,10,VaporGlove2_01
-481,20170425,07:43 am,08:18 am,35,4.8,Cloudy,7,VaporGlove2_01
-480,20170424,08:19 am,08:54 am,35,4.8,Cloudy,8,VaporGlove2_01
-479,20170423,08:55 am,09:25 am,30,4.1,Cloudy,10,VaporGlove2_01
-478,20170422,07:48 am,08:29 am,41,5.2,Cloudy,15,VaporGlove2_01
-477,20170421,07:45 am,08:19 am,34,4.8,Sunny,6,VaporGlove2_01
-476,20170420,08:00 am,08:34 am,34,4.8,Cloudy,7,VaporGlove2_01
-475,20170419,07:40 am,08:14 am,34,4.7,Cloudy,7,VaporGlove2_01
-474,20170418,07:37 am,08:10 am,33,4.5,Cloudy,8,VaporGlove2_01
-473,20170417,07:30 am,08:06 am,36,4.9,Cloudy,5,VaporGlove2_01
-472,20170416,09:00 am,09:33 am,33,4.3,Cloudy,5,VaporGlove2_01
-471,20170415,08:05 am,08:35 am,30,4,Cloudy,5,VaporGlove2_01
-470,20170414,06:34 am,07:04 am,30,4.4,Cloudy,6,VaporGlove2_01
-469,20170413,06:30 am,07:00 am,30,4.4,Cloudy,7,VaporGlove2_01
-468,20170412,06:10 am,06:40 am,30,4.3,Rain,8,VaporGlove2_01
-467,20170411,07:25 am,07:55 am,30,4.4,Sunny,3,VaporGlove2_01
-466,20170410,07:35 am,08:05 am,30,4.3,Sunny,6,VaporGlove2_01
-465,20170409,08:47 am,09:17 am,30,3.6,Sunny,9,VaporGlove2_01
-464,20170408,12:20 am,13:00 am,40,6,Sunny,12,VaporGlove2_01
-463,20170407,08:13 am,08:45 am,32,4.6,Rain,9,VaporGlove2_01
-462,20170406,06:14 pm,05:42 pm,28,4,Sunny,12,VaporGlove2_01
-461,20170405,06:29 pm,07:00 pm,31,4.1,Rain,6,VaporGlove2_01
-460,20170404,07:30 am,08:00 am,30,4.3,Cloudy,6,VaporGlove2_01
-459,20170403,11:29 am,11:59 am,30,4.4,Cloudy,14,VaporGlove2_01
-458,20170402,10:07 pm,10:37 pm,30,4,Clear,14,VaporGlove2_01
-457,20170401,02:28 pm,02:58 pm,30,4.4,Sunny,19,VaporGlove2_01
-456,20170331,07:00 pm,07:25 pm,26,3.3,Sunny,14,VaporGlove2_01
-455,20170330,06:43 am,07:13 am,30,4.5,Cloudy,6,VaporGlove2_01
-454,20170329,07:35 am,08:05 am,30,4.5,Rain,7,VaporGlove2_01
-453,20170328,08:20 am,08:50 am,30,4.5,Rain,8,VaporGlove2_01
-452,20170327,06:45 am,07:15 am,30,4.4,Cloudy,7,VaporGlove2_01
-451,20170326,09:10 am,09:30 am,20,2.6,Rain,7,VaporGlove2_01
-450,20170325,07:10 am,07:50 am,40,5.6,Cloudy,7,VaporGlove2_01
-449,20170324,08:05 am,08:35 am,30,4.4,Rain,7,VaporGlove2_01
-448,20170323,02:20 pm,02:50 pm,30,4.4,Cloudy,11,VaporGlove2_01
-447,20170322,09:35 am,10:05 am,30,4.4,Cloudy,12,VaporGlove2_01
-446,20170321,07:13 am,07:37 am,24,3.4,Rain,6,VaporGlove2_01
-445,20170320,08:05 am,08:35 am,30,4.3,Cloudy,7,VaporGlove2_01
-444,20170319,11:06 am,11:48 am,42,6.2,Sunny,8,VaporGlove2_01
-443,20170318,11:16 am,11:46 am,30,4,Rain,7,VaporGlove2_01
-442,20170317,07:35 am,08:05 am,30,4.4,Cloudy,4,VaporGlove2_01
-441,20170316,08:55 am,09:26 am,32,4.8,Sunny,8,VaporGlove2_01
-440,20170315,10:42 pm,11:13 am,31,4.3,Cloudy,8,VaporGlove2_01
-439,20170314,01:15 pm,01:27 pm,22,3.5,Rain,11,VaporGlove2_01
-438,20170313,07:50 am,08:20 am,30,4.3,Rain,9,VaporGlove2_01
-437,20170312,11:26 am,11:56 am,30,3.9,Rain,9,VaporGlove2_01
-436,20170311,02:18 pm,02:48 pm,30,4.3,Cloudy,9,VaporGlove2_01
-435,20170310,07:05 am,07:35 am,30,4.4,Cloudy,9,VaporGlove2_01
-434,20170309,07:19 am,07:43 am,24,3.2,Cloudy,4,VaporGlove2_01
-433,20170308,07:20 am,07:44 am,24,3.2,Mostly Cloudy,2,VaporGlove2_01
-432,20170307,11:06 pm,11:30 pm,24,3.2,Cloudy,6,VaporGlove2_01
-431,20170306,01:25 pm,01:47 pm,22,4,Sunny,5,VaporGlove2_01
-430,20170305,11:46 am,12:16 pm,30,4.4,Rain,5,VaporGlove2_01
-429,20170304,06:00 pm,06:26 pm,26,3.2,Cloudy,6,VaporGlove2_01
-428,20170303,12:00 pm,12:34 pm,34,4.5,Rain,6,VaporGlove2_01
-427,20170302,11:38 pm,11:58 pm,20,2.9,Rain,6,VaporGlove2_01
-426,20170301,06:30 am,06:52 am,22,3.2,Cloudy,14,VaporGlove2_01
-425,20170228,09:50 pm,10:21 pm,31,4.5,Rain,14,VaporGlove2_01
-424,20170227,05:30 pm,06:01 pm,31,4.5,Cloudy,2,VaporGlove2_01
-423,20170226,11:48 pm,12:00 am,12,1.7,Mostly Cloudy,4,VaporGlove2_01
-422,20170225,12:06 pm,12:36 pm,30,4.4,Cloudy,6,VaporGlove2_01
-421,20170224,07:00 am,07:24 am,24,3.4,Cloudy,2,VaporGlove2_01
-420,20170223,08:14 am,08:56 am,42,6.1,Cloudy,3,VaporGlove2_01
-419,20170222,07:00 am,07:30 am,30,4.4,Cloudy,3,BK30
-418,20170221,08:30 am,08:50 am,20,2.9,Rain,6,BK30
-417,20170220,06:55 am,07:25 am,30,4.4,Rain,6,BK30
-416,20170219,11:40 pm,11:56 pm,16,2.3,Mostly Cloudy,6,BK30
-415,20170218,10:33 am,11:03 am,30,4.4,Rain,7,BK30
-414,20170217,08:40 am,09:11 am,31,4.4,Partly Cloudy,6,BK30
-413,20170216,01:00 pm,01:26 pm,26,3.4,Cloudy,7,BK30
-412,20170215,06:29 am,06:59 am,30,4.3,Rain,7,BK30
-411,20170214,06:17 am,06:57 am,40,5.7,Clear,2,BK30
-410,20170213,07:30 am,08:10 am,40,5.7,Sunny,2,BK30
-409,20170212,08:24 pm,09:04 pm,40,5.7,Clear,4,BK30
-408,20170211,10:38 am,11:18 am,40,5.7,Cloudy,5,BK30
-407,20170210,10:16 pm,10:40 pm,24,3.2,Cloudy,4,BK30
-406,20170209,12:15 pm,12:45 pm,30,4.2,Rain,11,BK30
-405,20170208,07:09 am,07:40 am,31,4.2,Rain,1,BK30
-404,20170207,01:43 pm,02:05 pm,22,3.4,Cloudy,1,BK30
-403,20170206,07:14 am,07:54 am,40,5.4,Snow,-1,BK30
-402,20170205,09:00 am,09:13 pm,13,1.7,Cloudy,3,BK30
-401,20170204,02:27 pm,02:57 pm,30,4.5,Rain,7,BK30
-400,20170203,07:55 am,08:25 am,30,4.4,Rain,2,BK30
-399,20170202,09:15 pm,09:45 pm,30,4.4,Cloudy,3,BK30
-398,20170201,12:05 pm,12:35 pm,30,4.4,Sunny,4,BK30
-397,20170131,09:35 pm,10:05 pm,30,4.4,Clear,2,BK30
-396,20170130,12:40 pm,01:04 pm,24,3.4,Cloudy,7,BK30
-395,20170129,09:50 pm,10:20 pm,30,4.4,Cloudy,7,BK30
-394,20170128,04:50 pm,05:20 pm,30,4.5,Mostly Cloudy,5,BK30
-393,20170127,08:03 am,08:33 am,30,4.5,Cloudy,3,BK30
-392,20170126,04:22 pm,04:52 pm,30,4.4,Fair,4,BK30
-391,20170125,06:43 am,07:13 am,30,4.4,Cloudy,3,BK30
-390,20170124,06:23 am,06:53 am,30,4.4,Cloudy,2,BK30
-389,20170123,07:20 am,07:50 am,30,4.5,Mostly Cloudy,2,BK30
-388,20170122,08:55 am,09:25 am,30,4.5,Rain,6,BK30
-387,20170121,09:34 am,09:47 am,23,3.2,Rain,6,BK30
-386,20170120,07:38 am,08:08 am,30,4,Partly Cloudy,5,BK30
-385,20170119,07:40 am,08:10 am,30,4.5,Rain,6,BK30
-384,20170118,06:17 am,06:47 am,30,4.4,Rain,7,BK30
-383,29170117,06:55 am,07:25 am,30,4.4,Rain,4,BK30
-382,20170116,01:48 pm,02:28 pm,30,4.5,Cloudy,7,BK30
-381,20170115,04:40 pm,05:20 pm,30,4.5,Sunny,3,BK30
-380,20170114,03:07 pm,03:38 pm,31,4.7,Sunny,6,BK30
-379,20170113,11:30 pm,11:54 am,24,3.2,Mostly Cloudy,0,BK30
-378,20170112,04:42 am,08:05 am,23,3.2,Clear,-5,BK30
-377,20170111,07:03 am,07:26 am,23,3.2,Cloudy,-2,BK30
-376,20170110,06:50 am,07:10 am,30,4.4,Cloudy,2,BK30
-375,20170109,06:28 am,06:58 am,30,4.5,Cloudy,4,BK30
-374,20170108,08:55 am,09:25 am,30,4.5,Cloudy,5,BK30
-373,20170107,04:43 pm,05:13 pm,30,4.5,Cloudy,3,BK30
-372,20170106,04:12 pm,04:42 pm,30,4.2,Clear,-2,BK30
-371,20170105,06:57 am,07:27 am,30,4.4,Clear,-6,BK30
-370,20170104,07:27 am,07:57 am,30,4.5,Clear,-4,BK30
-369,20170103,12:27 pm,01:12 pm,45,6.15,Sunny,-1,BK30
-368,20170102,08:05 am,08:35 am,30,4.5,Partly Cloudy,-1,BK30
-367,20170101,07:22 am,07:45 am,23.5,3.2,Cloudy,0,BK30
+streak#,date,startTime,runningTime(min),Distance(mile),weather,temperature(C),Shoes
+731,20171231,06:01 pm,15,2.1,Clear,2,VaporGlove2_02
+730,20171230,12:43 pm,33,4.1,Cloudy,8,VaporGlove2_02
+729,20171229,05:37 pm,24,3.3,Rain,11,VaporGlove2_02
+728,20171228,09:04 am,31,4.1,Rain,7,VaporGlove2_02
+727,20171227,08:54 am,36,4.8,Cloudy,3,VaporGlove2_02
+726,20171226,09:00 am,37,4.8,Cloudy,0,VaporGlove2_02
+725,20171225,06:02 pm,24,3.2,Cloudy,1,VaporGlove2_02
+724,20171224,04:38 pm,27,3.1,Snow,3,VaporGlove2_02
+723,20171223,10:29 am,20,2.1,Sunny,1,VaporGlove2_02
+722,20171222,09:08 am,37,4.2,Rainy,4,VaporGlove2_02
+721,20171221,08:47 am,33,4.1,Sunny,2,VaporGlove2_02
+720,20171220,08:32 am,36,4.8,Sunny,4,VaporGlove2_02
+719,20171219,05:26 pm,37,4.3,Cloudy,4,VaporGlove2_02
+718,20171218,08:35 am,37,4.8,Rain,7,VaporGlove2_02
+717,20171217,09:24 am,24,3.3,Rain,4,VaporGlove2_02
+716,20171216,09:03 pm,25,3.3,Rain,7,VaporGlove2_02
+715,20171215,09:17 pm,32,4.2,Cloudy,4,VaporGlove2_02
+714,20171214,08:29 am,35,4.2,Sunny,4,VaporGlove2_02
+713,20171213,08:25 am,37,4.8,Cloudy,4,VaporGlove2_02
+712,20171212,08:44 am,37,4.8,Cloudy,3,VaporGlove2_02
+711,20171211,08:02 am,36,4.8,Fog,0,VaporGlove2_02
+710,20171210,09:07 am,40,4.8,Sunny,2,VaporGlove2_02
+709,20171209,09:16 am,25,3.1,Fog,0,VaporGlove2_02
+708,20171208,10:25 pm,25,3.1,Fog,1,VaporGlove2_02
+707,20171207,08:45 am,32,4.1,Sunny,3,VaporGlove2_02
+706,20171206,05:23 pm,33,4.2,Cloudy,5,VaporGlove2_02
+705,20171205,05:42 pm,23,3.4,Cloudy,5,VaporGlove2_02
+704,20171204,04:39 pm,33,4.2,Cloudy,5,VaporGlove2_02
+703,20171203,09:05 am,32,4.1,Cloudy,4,VaporGlove2_02
+702,20171202,09:20 pm,25,3.4,Rain,5,VaporGlove2_02
+701,20171201,08:54 am,32,4.3,Cloudy,6,VaporGlove2_02
+700,20171130,05:45 pm,32,4.3,Cloudy,5,VaporGlove2_02
+699,20171129,08:41 am,35,4.8,Cloudy,7,VaporGlove2_02
+698,20171128,08:11 am,37,4.8,Rain,8,VaporGlove2_02
+697,20171127,05:09 pm,31,4.1,Rain,5,VaporGlove2_02
+696,20171126,06:09 pm,23,3.4,Rain,8,VaporGlove2_02
+695,20171125,08:45 am,22,3.4,Cloudy,8,VaporGlove2_02
+694,20171124,11:24 pm,13,2,Cloudy,10,VaporGlove2_02
+693,20171123,01:13 pm,22,3.4,Cloudy,13,VaporGlove2_02
+692,20171122,08:17 am,36,4.8,Cloudy,13,VaporGlove2_02
+691,20171121,08:10 am,36,4.8,Rain,6,VaporGlove2_02
+690,20171120,04:38 pm,32,4.3,Cloudy,5,VaporGlove2_02
+689,20171119,08:24 am,72,8.8,Cloudy,6,VaporGlove2_02
+688,20171118,08:42 am,30,4.3,Cloudy,8,VaporGlove2_02
+687,20171117,08:09 am,35,4.8,Cloudy,6,VaporGlove2_02
+686,20171116,05:39 pm,31,4.2,Cloudy,9,VaporGlove2_02
+685,20171115,05:00 pm,30,4.2,Cloudy,9,VaporGlove2_02
+684,20171114,07:52 am,35,4.8,Cloudy,8,VaporGlove2_02
+683,20171113,08:34 am,36,4.8,Cloudy,8,VaporGlove2_02
+682,20171112,09:15 pm,25,3.4,Rain,8,VaporGlove2_02
+681,20171111,08:20 am,30,3.8,Rain,6,VaporGlove2_02
+680,20171110,08:02 am,35,4.8,Cloudy,6,VaporGlove2_02
+679,20171109,08:12 am,33,4.2,Rain,8,VaporGlove2_02
+678,20171108,05:27 pm,31,4.2,Rain,7,VaporGlove2_02
+677,20171107,05:35 pm,32,4.2,Cloudy,6,VaporGlove2_02
+676,20171106,05:34 pm,33,4.2,Cloudy,6,VaporGlove2_02
+675,20171105,08:50 pm,24,3.4,Cloudy,1,VaporGlove2_02
+674,20171104,09:08 am,27,3.8,Cloudy,1,VaporGlove2_02
+673,20171103,06:08 am,20,2.7,Cloudy,13,VaporGlove2_02
+672,20171102,08:19 am,33,4.8,Cloudy,10,VaporGlove2_02
+671,20171101,05:39 pm,31,4,Cloudy,10,VaporGlove2_02
+670,20171031,08:41 pm,24,3.3,Clear,8,VaporGlove2_02
+669,20171030,05:45 pm,31,4,Sunny,9,VaporGlove2_02
+668,20171029,08:55 am,30,2.8,Fog,10,VaporGlove2_02
+667,20171028,09:24 pm,20,2.7,Cloudy,11,VaporGlove2_02
+666,20171027,08:35 am,32,4.1,Sunny,10,VaporGlove2_02
+665,20171026,05:37 pm,31,4.1,Sunny,14,VaporGlove2_02
+664,20171025,08:42 am,35,4.8,Cloudy,10,VaporGlove2_02
+663,20171024,05:38 pm,32,4.4,Sunny,14,VaporGlove2_02
+662,20171023,08:31 am,33,4.8,Cloudy,12,VaporGlove2_02
+661,20171022,11:59 pm,12,1.7,Cloudy,10,VaporGlove2_02
+660,20171021,11:40 am,30,3.2,Rain,9,VaporGlove2_02
+659,20171020,05:05 pm,33,4.3,Cloudy,10,VaporGlove2_02
+658,20171019,11:40 pm,20,2.7,Rain,9,VaporGlove2_02
+657,20171018,04:47 pm,33,4.3,Rain,16,VaporGlove2_02
+656,20171017,05:44 pm,33,4.3,Cloudy,13,VaporGlove2_02
+655,20171016,09:42 pm,23,3.4,Cloudy,13,VaporGlove2_02
+654,20171015,08:03 am,20,2.9,Sunny,5,VaporGlove2_02
+653,20171014,09:22 am,31,3.8,Cloudy,6,VaporGlove2_02
+652,20171013,08:35 am,36,4.8,Sunny,8,VaporGlove2_02
+651,20171012,08:25 am,32,4.3,Cloudy,8,VaporGlove2_02
+650,20171011,08:12 am,36,4.8,Cloudy,8,VaporGlove2_02
+649,20171010,11:52 pm,20,2.7,Clear,8,VaporGlove2_02
+648,20171009,05:18 pm,32,4.3,Sunny,19,VaporGlove2_02
+647,20171008,09:02 pm,24,3.4,Cloudy,9,VaporGlove2_02
+646,20171007,02:22 pm,28,3.4,Rain,16,VaporGlove2_02
+645,20171006,08:13 am,37,4.8,Sunny,8,VaporGlove2_02
+644,20171005,06:05 pm,32,4.3,Sunny,19,VaporGlove2_02
+643,20171004,04:30 pm,32,4.3,Sunny,14,VaporGlove2_02
+642,20171003,06:25 pm,32,4.3,Sunny,14,VaporGlove2_02
+641,20171002,07:05 pm,35,4.4,Clear,14,VaporGlove2_02
+640,20171001,09:36 pm,25,3.4,Clear,11,VaporGlove2_02
+639,20170930,10:03 am,32,3.8,Cloudy,14,VaporGlove2_02
+638,20170929,08:42 am,32,4.4,Rain,14,VaporGlove2_02
+637,20170928,06:14 pm,32,4.3,Sunny,29,VaporGlove2_02
+636,20170927,05:23 pm,32,4.3,Sunny,20,VaporGlove2_02
+635,20170926,05:57 pm,33,4.3,Sunny,18,VaporGlove2_02
+634,20170925,05:03 pm,32,4.3,Cloudy,18,VaporGlove2_02
+633,20170924,10:06 pm,20,2.7,Cloudy,13,VaporGlove2_02
+632,20170923,10:29 am,27,3.4,Sunny,16,VaporGlove2_02
+631,20170922,08:09 am,35,4.8,Cloudy,11,VaporGlove2_02
+630,20170921,07:54 am,31,4.3,Cloudy,11,VaporGlove2_02
+629,20170920,04:39 pm,33,4.3,Cloudy,15,VaporGlove2_02
+628,20170919,08:20 am,35,4.8,Rain,11,VaporGlove2_02
+627,20170918,04:43 pm,32,4.3,Rain,13,VaporGlove2_02
+626,20170917,08:39 am,25,3.4,Cloudy,13,VaporGlove2_02
+625,20170916,07:15 am,24,3.4,Cloudy,13,VaporGlove2_02
+624,20170915,06:29 am,30,4,Cloudy,20,VaporGlove2_02
+623,20170914,08:58 pm,31,4.5,Cloudy,19,VaporGlove2_02
+622,20170913,08:17 am,33,4.5,Sunny,13,VaporGlove2_02
+621,20170912,05:32 pm,32,4.3,Sunny,20,VaporGlove2_02
+620,20170911,04:26 pm,32,4.3,Sunny,27,VaporGlove2_02
+619,20170910,09:42 pm,25,3.3,Cloudy,16,VaporGlove2_02
+618,20170909,07:15 am,30,4.1,Cloudy,21,VaporGlove2_02
+617,20170908,10:25 pm,31,4.2,Cloudy,20,VaporGlove2_02
+616,20170907,05:40 pm,32,4.3,Cloudy,26,VaporGlove2_02
+615,20170906,06:09 pm,32,4.3,Cloudy,26,VaporGlove2_02
+614,20170905,08:13 am,34,4.8,Cloudy,23,VaporGlove2_02
+613,20170904,10:28 pm,23,3.3,Cloudy,23,VaporGlove2_02
+612,20170903,09:31 pm,24,3.4,Clear,26,VaporGlove2_02
+611,20170902,09:33 pm,24,3.4,Clear,22,VaporGlove2_02
+610,20170901,05:23 pm,32,4.3,Sunny,27,VaporGlove2_02
+609,20170831,05:20 pm,32,4.3,Sunny,23,VaporGlove2_02
+608,20170830,04:28 pm,32,4.3,Sunny,23,VaporGlove2_02
+607,20170829,05:32 pm,32,4.3,Sunny,29,VaporGlove2_02
+606,20170828,05:23 pm,33,4.3,Sunny,29,VaporGlove2_02
+605,20170827,08:45 am,24,3.4,Sunny,17,VaporGlove2_02
+604,20170826,08:10 am,35,4.3,Sunny,14,VaporGlove2_02
+603,20170825,05:28 pm,32,4.3,Sunny,22,VaporGlove2_02
+602,20170824,05:33 pm,32,4.3,Sunny,21,VaporGlove2_02
+601,20170823,05:50 pm,30,4.3,Cloudy,22,VaporGlove2_02
+600,20170822,05:20 pm,30,4.3,Sunny,29,VaporGlove2_01
+599,20170821,05:13 pm,31,4.3,Sunny,21,VaporGlove2_01
+598,20170820,09:05 am,45,6.1,Sunny,16,VaporGlove2_01
+597,20170819,10:00 pm,25,3.3,Clear,17,VaporGlove2_01
+596,20170818,05:52 pm,32,4.4,Cloudy,21,VaporGlove2_01
+595,20170817,05:50 pm,31,4.4,Sunny,24,VaporGlove2_01
+594,20170816,05:42 pm,33,4.6,Sunny,26,VaporGlove2_01
+593,20170815,05:43 pm,32,4.4,Sunny,24,VaporGlove2_01
+592,20170814,05:26 pm,32,4.3,Cloudy,21,VaporGlove2_01
+591,20170813,08:58 pm,24,3.3,Cloudy,16,VaporGlove2_01
+590,20170812,10:58 pm,24,3.3,Rain,17,VaporGlove2_01
+589,20170811,06:02 pm,32,4.3,Cloudy,28,VaporGlove2_01
+588,20170810,06:10 pm,32,4.4,Smoke,27,VaporGlove2_01
+587,20170809,05:35 pm,25,3.4,Smoke,26,VaporGlove2_01
+586,20170808,05:20 pm,32,4.4,Smoke,27,VaporGlove2_01
+585,20170807,05:15 pm,32,4.4,Smoke,28,VaporGlove2_01
+584,20170806,11:25 pm,25,3.3,Smoke,19,VaporGlove2_01
+583,20170805,10:43 pm,25,3.4,Smoke,19,VaporGlove2_01
+582,20170804,10:02 pm,25,3.3,Smoke,21,VaporGlove2_01
+581,20170803,08:10 am,33,4.5,Smoke,24,VaporGlove2_01
+580,20170802,08:18 am,35,4.8,Smoke,22,VaporGlove2_01
+579,20170801,08:45 am,34,4.8,Sunny,21,VaporGlove2_01
+578,20170731,05:16 pm,32,4.3,Sunny,28,VaporGlove2_01
+577,20170730,10:08 pm,25,3.4,Clear,16,VaporGlove2_01
+576,20170729,06:45 am,23,3.4,Sunny,15,VaporGlove2_01
+575,20170728,08:20 am,34,4.8,Cloudy,17,VaporGlove2_01
+574,20170727,08:20 am,30,4.3,Cloudy,14,VaporGlove2_01
+573,20170726,06:13 am,24,3.4,Sunny,16,VaporGlove2_01
+572,20170725,05:23 pm,33,4.3,Sunny,28,VaporGlove2_01
+571,20170724,10:15 pm,24,3.3,Clear,18,VaporGlove2_01
+570,20170723,10:07 pm,40,5.5,Clear,17,VaporGlove2_01
+569,20170722,10:35 am,30,4.2,Sunny,23,VaporGlove2_01
+568,20170721,08:15 am,35,4.9,Sunny,15,VaporGlove2_01
+567,20170720,06:00 pm,32,4.4,Sunny,23,VaporGlove2_01
+566,20170719,06:28 pm,33,4.5,Sunny,25,VaporGlove2_01
+565,20170718,05:30 pm,31,4.3,Sunny,27,VaporGlove2_01
+564,20170717,08:58 am,32,4.4,Sunny,17,VaporGlove2_01
+563,20170716,09:37 pm,24,3.4,Clear,15,VaporGlove2_01
+562,20170715,10:50 pm,25,3.4,Cloudy,17,VaporGlove2_01
+561,20170714,05:30 pm,33,4.3,Sunny,25,VaporGlove2_01
+560,20170713,05:11 pm,32,4.3,Sunny,26,VaporGlove2_01
+559,20170712,09:02 am,34,4.8,Sunny,18,VaporGlove2_01
+558,20170711,08:20 am,34,4.8,Cloudy,15,VaporGlove2_01
+557,20170710,08:20 am,35,4.8,Sunny,18,VaporGlove2_01
+556,20170709,04:05 pm,30,4.3,Sunny,25,VaporGlove2_01
+555,20170708,05:05 pm,30,4.3,Sunny,26,VaporGlove2_01
+554,20170707,08:35 am,35,4.8,Sunny,15,VaporGlove2_01
+553,20170706,07:58 am,31,4.5,Sunny,16,VaporGlove2_01
+552,20170705,05:28 pm,32,4.4,Sunny,27,VaporGlove2_01
+551,20170704,07:00 am,30,4.3,Sunny,15,VaporGlove2_01
+550,20170703,08:32 am,36,4.8,Cloudy,13,VaporGlove2_01
+549,20170702,10:29 pm,30,4.2,Cloudy,16,VaporGlove2_01
+548,20170701,08:29 am,48,6.1,Cloudy,13,VaporGlove2_01
+547,20170630,10:36 pm,26,3.4,Cloudy,18,VaporGlove2_01
+546,20170629,08:21 am,31,4.5,Sunny,20,VaporGlove2_01
+545,20170628,10:38 pm,40,5.7,Clear,16,VaporGlove2_01
+544,20170627,08:00 am,35,4.8,Cloudy,14,VaporGlove2_01
+543,20170626,08:37 am,35,4.8,Cloudy,15,VaporGlove2_01
+542,20170625,07:07 am,30,4.2,Sunny,22,VaporGlove2_01
+541,20170624,09:10 pm,30,4.1,Clear,23,VaporGlove2_01
+540,20170623,08:16 am,35,4.8,Sunny,20,VaporGlove2_01
+539,20170622,10:35 pm,30,4.1,Clear,16,VaporGlove2_01
+538,20170621,08:54 pm,37,4.9,Cloudy,15,VaporGlove2_01
+537,20170620,09:00 am,32,4.3,Cloudy,17,VaporGlove2_01
+536,20170619,08:15 am,36,4.9,Cloudy,14,VaporGlove2_01
+535,20170618,08:57 am,40,5.1,Cloudy,14,VaporGlove2_01
+534,20170617,10:25 am,43,6.1,Cloudy,13,VaporGlove2_01
+533,20170616,08:05 am,34,4.9,Cloudy,15,VaporGlove2_01
+532,20170615,08:20 am,36,4.8,Cloudy,13,VaporGlove2_01
+531,20170614,07:42 am,36,4.8,Cloudy,12,VaporGlove2_01
+530,20170613,08:07 am,35,4.8,Cloudy,11,VaporGlove2_01
+529,20170612,07:56 am,35,4.8,Cloudy,13,VaporGlove2_01
+528,20170611,11:02 pm,45,6.1,Clear,13,VaporGlove2_01
+527,20170610,04:43 pm,43,6.1,Cloudy,19,VaporGlove2_01
+526,20170609,08:13 am,49,6.3,Cloudy,13,VaporGlove2_01
+525,20170608,11:05 pm,44,6.2,Cloudy,13,VaporGlove2_01
+524,20170607,08:40 am,47,6.1,Sunny,17,VaporGlove2_01
+523,20170606,11:22 am,48,6.1,Sunny,20,VaporGlove2_01
+522,20170605,07:05 am,44,6.1,Sunny,12,VaporGlove2_01
+521,20170604,10:25 am,65,8.6,Cloudy,14,VaporGlove2_01
+520,20170603,08:00 am,30,4.1,Cloudy,14,VaporGlove2_01
+519,20170602,09:00 pm,45,6.2,Cloudy,14,VaporGlove2_01
+518,20170601,06:20 am,44,6.1,Cloudy,14,VaporGlove2_01
+517,20170531,06:40 am,40,5.6,Cloudy,12,VaporGlove2_01
+516,20170530,02:00 pm,50,6.2,Rain,14,VaporGlove2_01
+515,20170529,04:23 pm,46,5.8,Sunny,24,VaporGlove2_01
+514,20170528,07:46 am,40,5.5,Sunny,20,VaporGlove2_01
+513,20170527,07:52 am,40,4.8,Sunny,18,VaporGlove2_01
+512,20170526,07:45 am,40,5.7,Sunny,12,VaporGlove2_01
+511,20170525,07:30 am,40,5.7,Sunny,12,VaporGlove2_01
+510,20170524,12:40 pm,30,4.3,Cloudy,16,VaporGlove2_01
+509,20170523,08:15 am,30,4.3,Sunny,19,VaporGlove2_01
+508,20170522,09:00 am,40,5,Sunny,19,VaporGlove2_01
+507,20170521,07:20 am,30,4.2,Sunny,14,VaporGlove2_01
+506,20170520,12:40 pm,42,6.1,Sunny,21,VaporGlove2_01
+505,20170519,06:10 pm,41,5.5,Cloudy,19,VaporGlove2_01
+504,20170518,11:25 pm,30,4.2,Cloudy,13,VaporGlove2_01
+503,20170517,09:33 pm,40,5.7,Cloudy,12,VaporGlove2_01
+502,20170516,08:34 am,30,4.1,Rain,6,VaporGlove2_01
+501,20170515,11:05 pm,30,4,Rain,8,VaporGlove2_01
+500,20170514,04:00 pm,27,3.4,Cloudy,16,VaporGlove2_01
+499,20170513,08:50 am,40,5.2,Cloudy,8,VaporGlove2_01
+498,20170512,09:14 pm,30,3.9,Rain,8,VaporGlove2_01
+497,20170511,10:23 pm,12,1.5,Rain,8,VaporGlove2_01
+496,20170510,06:49 am,31,4.2,Cloudy,16,VaporGlove2_01
+495,20170509,07:07 am,30,4.3,Sunny,12,VaporGlove2_01
+494,20170508,07:03 am,30,4.2,Cloudy,9,VaporGlove2_01
+493,20170507,08:30 am,40,5.1,Cloudy,8,VaporGlove2_01
+492,20170506,12:03 pm,40,6,Sunny,13,VaporGlove2_01
+491,20170505,08:00 am,34,4.8,Cloudy,12,VaporGlove2_01
+490,20170504,08:34 am,34,4.8,Fog,17,VaporGlove2_01
+489,20170503,08:15 am,35,4.8,Cloudy,13,VaporGlove2_01
+488,20170502,08:15 am,30,4.4,Cloudy,7,VaporGlove2_01
+487,20170501,08:28 am,33,4.6,Rain,8,VaporGlove2_01
+486,20170430,11:32 am,30,4.1,Sunny,9,VaporGlove2_01
+485,20170429,07:58 am,22,3.1,Cloudy,7,VaporGlove2_01
+484,20170428,06:06 am,30,4.2,Sunny,15,VaporGlove2_01
+483,20170427,07:44 am,35,4.8,Cloudy,6,VaporGlove2_01
+482,20170426,05:32 pm,32,4.5,Rain,10,VaporGlove2_01
+481,20170425,07:43 am,35,4.8,Cloudy,7,VaporGlove2_01
+480,20170424,08:19 am,35,4.8,Cloudy,8,VaporGlove2_01
+479,20170423,08:55 am,30,4.1,Cloudy,10,VaporGlove2_01
+478,20170422,07:48 am,41,5.2,Cloudy,15,VaporGlove2_01
+477,20170421,07:45 am,34,4.8,Sunny,6,VaporGlove2_01
+476,20170420,08:00 am,34,4.8,Cloudy,7,VaporGlove2_01
+475,20170419,07:40 am,34,4.7,Cloudy,7,VaporGlove2_01
+474,20170418,07:37 am,33,4.5,Cloudy,8,VaporGlove2_01
+473,20170417,07:30 am,36,4.9,Cloudy,5,VaporGlove2_01
+472,20170416,09:00 am,33,4.3,Cloudy,5,VaporGlove2_01
+471,20170415,08:05 am,30,4,Cloudy,5,VaporGlove2_01
+470,20170414,06:34 am,30,4.4,Cloudy,6,VaporGlove2_01
+469,20170413,06:30 am,30,4.4,Cloudy,7,VaporGlove2_01
+468,20170412,06:10 am,30,4.3,Rain,8,VaporGlove2_01
+467,20170411,07:25 am,30,4.4,Sunny,3,VaporGlove2_01
+466,20170410,07:35 am,30,4.3,Sunny,6,VaporGlove2_01
+465,20170409,08:47 am,30,3.6,Sunny,9,VaporGlove2_01
+464,20170408,12:20 am,40,6,Sunny,12,VaporGlove2_01
+463,20170407,08:13 am,32,4.6,Rain,9,VaporGlove2_01
+462,20170406,06:14 pm,28,4,Sunny,12,VaporGlove2_01
+461,20170405,06:29 pm,31,4.1,Rain,6,VaporGlove2_01
+460,20170404,07:30 am,30,4.3,Cloudy,6,VaporGlove2_01
+459,20170403,11:29 am,30,4.4,Cloudy,14,VaporGlove2_01
+458,20170402,10:07 pm,30,4,Clear,14,VaporGlove2_01
+457,20170401,02:28 pm,30,4.4,Sunny,19,VaporGlove2_01
+456,20170331,07:00 pm,26,3.3,Sunny,14,VaporGlove2_01
+455,20170330,06:43 am,30,4.5,Cloudy,6,VaporGlove2_01
+454,20170329,07:35 am,30,4.5,Rain,7,VaporGlove2_01
+453,20170328,08:20 am,30,4.5,Rain,8,VaporGlove2_01
+452,20170327,06:45 am,30,4.4,Cloudy,7,VaporGlove2_01
+451,20170326,09:10 am,20,2.6,Rain,7,VaporGlove2_01
+450,20170325,07:10 am,40,5.6,Cloudy,7,VaporGlove2_01
+449,20170324,08:05 am,30,4.4,Rain,7,VaporGlove2_01
+448,20170323,02:20 pm,30,4.4,Cloudy,11,VaporGlove2_01
+447,20170322,09:35 am,30,4.4,Cloudy,12,VaporGlove2_01
+446,20170321,07:13 am,24,3.4,Rain,6,VaporGlove2_01
+445,20170320,08:05 am,30,4.3,Cloudy,7,VaporGlove2_01
+444,20170319,11:06 am,42,6.2,Sunny,8,VaporGlove2_01
+443,20170318,11:16 am,30,4,Rain,7,VaporGlove2_01
+442,20170317,07:35 am,30,4.4,Cloudy,4,VaporGlove2_01
+441,20170316,08:55 am,32,4.8,Sunny,8,VaporGlove2_01
+440,20170315,10:42 pm,31,4.3,Cloudy,8,VaporGlove2_01
+439,20170314,01:15 pm,22,3.5,Rain,11,VaporGlove2_01
+438,20170313,07:50 am,30,4.3,Rain,9,VaporGlove2_01
+437,20170312,11:26 am,30,3.9,Rain,9,VaporGlove2_01
+436,20170311,02:18 pm,30,4.3,Cloudy,9,VaporGlove2_01
+435,20170310,07:05 am,30,4.4,Cloudy,9,VaporGlove2_01
+434,20170309,07:19 am,24,3.2,Cloudy,4,VaporGlove2_01
+433,20170308,07:20 am,24,3.2,Mostly Cloudy,2,VaporGlove2_01
+432,20170307,11:06 pm,24,3.2,Cloudy,6,VaporGlove2_01
+431,20170306,01:25 pm,22,4,Sunny,5,VaporGlove2_01
+430,20170305,11:46 am,30,4.4,Rain,5,VaporGlove2_01
+429,20170304,06:00 pm,26,3.2,Cloudy,6,VaporGlove2_01
+428,20170303,12:00 pm,34,4.5,Rain,6,VaporGlove2_01
+427,20170302,11:38 pm,20,2.9,Rain,6,VaporGlove2_01
+426,20170301,06:30 am,22,3.2,Cloudy,14,VaporGlove2_01
+425,20170228,09:50 pm,31,4.5,Rain,14,VaporGlove2_01
+424,20170227,05:30 pm,31,4.5,Cloudy,2,VaporGlove2_01
+423,20170226,11:48 pm,12,1.7,Mostly Cloudy,4,VaporGlove2_01
+422,20170225,12:06 pm,30,4.4,Cloudy,6,VaporGlove2_01
+421,20170224,07:00 am,24,3.4,Cloudy,2,VaporGlove2_01
+420,20170223,08:14 am,42,6.1,Cloudy,3,VaporGlove2_01
+419,20170222,07:00 am,30,4.4,Cloudy,3,BK30
+418,20170221,08:30 am,20,2.9,Rain,6,BK30
+417,20170220,06:55 am,30,4.4,Rain,6,BK30
+416,20170219,11:40 pm,16,2.3,Mostly Cloudy,6,BK30
+415,20170218,10:33 am,30,4.4,Rain,7,BK30
+414,20170217,08:40 am,31,4.4,Partly Cloudy,6,BK30
+413,20170216,01:00 pm,26,3.4,Cloudy,7,BK30
+412,20170215,06:29 am,30,4.3,Rain,7,BK30
+411,20170214,06:17 am,40,5.7,Clear,2,BK30
+410,20170213,07:30 am,40,5.7,Sunny,2,BK30
+409,20170212,08:24 pm,40,5.7,Clear,4,BK30
+408,20170211,10:38 am,40,5.7,Cloudy,5,BK30
+407,20170210,10:16 pm,24,3.2,Cloudy,4,BK30
+406,20170209,12:15 pm,30,4.2,Rain,11,BK30
+405,20170208,07:09 am,31,4.2,Rain,1,BK30
+404,20170207,01:43 pm,22,3.4,Cloudy,1,BK30
+403,20170206,07:14 am,40,5.4,Snow,-1,BK30
+402,20170205,09:00 am,13,1.7,Cloudy,3,BK30
+401,20170204,02:27 pm,30,4.5,Rain,7,BK30
+400,20170203,07:55 am,30,4.4,Rain,2,BK30
+399,20170202,09:15 pm,30,4.4,Cloudy,3,BK30
+398,20170201,12:05 pm,30,4.4,Sunny,4,BK30
+397,20170131,09:35 pm,30,4.4,Clear,2,BK30
+396,20170130,12:40 pm,24,3.4,Cloudy,7,BK30
+395,20170129,09:50 pm,30,4.4,Cloudy,7,BK30
+394,20170128,04:50 pm,30,4.5,Mostly Cloudy,5,BK30
+393,20170127,08:03 am,30,4.5,Cloudy,3,BK30
+392,20170126,04:22 pm,30,4.4,Fair,4,BK30
+391,20170125,06:43 am,30,4.4,Cloudy,3,BK30
+390,20170124,06:23 am,30,4.4,Cloudy,2,BK30
+389,20170123,07:20 am,30,4.5,Mostly Cloudy,2,BK30
+388,20170122,08:55 am,30,4.5,Rain,6,BK30
+387,20170121,09:34 am,23,3.2,Rain,6,BK30
+386,20170120,07:38 am,30,4,Partly Cloudy,5,BK30
+385,20170119,07:40 am,30,4.5,Rain,6,BK30
+384,20170118,06:17 am,30,4.4,Rain,7,BK30
+383,29170117,06:55 am,30,4.4,Rain,4,BK30
+382,20170116,01:48 pm,30,4.5,Cloudy,7,BK30
+381,20170115,04:40 pm,30,4.5,Sunny,3,BK30
+380,20170114,03:07 pm,31,4.7,Sunny,6,BK30
+379,20170113,11:30 pm,24,3.2,Mostly Cloudy,0,BK30
+378,20170112,04:42 am,23,3.2,Clear,-5,BK30
+377,20170111,07:03 am,23,3.2,Cloudy,-2,BK30
+376,20170110,06:50 am,30,4.4,Cloudy,2,BK30
+375,20170109,06:28 am,30,4.5,Cloudy,4,BK30
+374,20170108,08:55 am,30,4.5,Cloudy,5,BK30
+373,20170107,04:43 pm,30,4.5,Cloudy,3,BK30
+372,20170106,04:12 pm,30,4.2,Clear,-2,BK30
+371,20170105,06:57 am,30,4.4,Clear,-6,BK30
+370,20170104,07:27 am,30,4.5,Clear,-4,BK30
+369,20170103,12:27 pm,45,6.15,Sunny,-1,BK30
+368,20170102,08:05 am,30,4.5,Partly Cloudy,-1,BK30
+367,20170101,07:22 am,23.5,3.2,Cloudy,0,BK30
