@@ -1,6 +1,7 @@
 streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
-1004,20181001,07:08 pm,15,1.8,Fitkicks,22,Sunny
-1003,20180930,04:11 pm,20,2.5,Fitkicks,22,Sunny
+1005,20181002,10:20 pm,20,2.4,Xero01,16,Clear
+1004,20181001,07:08 pm,15,1.8,Xero01,22,Sunny
+1003,20180930,04:11 pm,20,2.5,Xero01,22,Sunny
 1002,20180929,09:10 pm,20,3.0,Fitkicks,13,Clear
 1001,20180927,08:09 am,33,4.4,Xero01,15,Sunny
 1000,20180926,11:40 pm,20,2.5,Xero01,15,Clear
