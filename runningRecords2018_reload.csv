@@ -1,4 +1,5 @@
 streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
+0031,20181122,10:43 pm,20,2.4,Xero01,7,Cloudy
 0030,20181121,07:30 am,34,4.4,Xero01,8,Cloudy
 0029,20181120,08:43 am,36,4.5,Xero01,2,Foggy
 0028,20181119,07:41 am,37,4.5,Xero01,3,Sunny
