@@ -1,5 +1,6 @@
 streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
-0061,20181222,08:10 am,10,1.0,Xero01,4,Cloudy
+0062,20181223,03:41 pm,28,3.3,VaporGlove2_02,7,Cloudy
+0061,20181222,08:10 am,10,1.0,VaporGlove2_02,4,Cloudy
 0060,20181221,08:55 am,34,4.4,Xero01,2,Cloudy
 0059,20181220,05:33 pm,34,4.4,Xero01,8,Cloudy
 0058,20181219,05:14 pm,34,4.4,Xero01,8,Cloudy
