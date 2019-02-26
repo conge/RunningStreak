@@ -1,5 +1,6 @@
 streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
-0125,20190225,11:14 pm,20,2.6,VaporGlove2,2,Clear
+0127,20190226,09:01 am,35,4.4,VaporGlove2,-1,Sunny
+0126,20190225,11:14 pm,20,2.6,VaporGlove2,2,Clear
 0125,20190224,11:35 pm,20,2.6,VaporGlove2,3,Clear
 0124,20190223,11:35 pm,25,3.2,VaporGlove2,3,Rainy
 0123,20190222,08:51 am,34,4.4,VaporGlove2,1,Cloudy
