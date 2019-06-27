@@ -1,4 +1,5 @@
 streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
+0247,20190626,01:00 am,19,2.0,Xero01,14,Clear
 0246,20190625,10:16 pm,21,2.2,Xero01,14,Cloudy
 0245,20190624,08:30 am,32,4.2,Xero01,11,Rain
 0244,20190623,07:46 pm,22,2.5,Xero01,14,Cloudy
