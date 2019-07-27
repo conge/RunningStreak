@@ -1,4 +1,5 @@
 streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
+0277,20190726,09:40 pm,34,3.3,Barefeet,22,Clear
 0276,20190725,08:21 am,35,4.4,Barefeet,20,Sunny
 0275,20190724,08:28 am,34,4.4,Barefeet,16,Cloudy
 0274,20190723,09:55 pm,20,2.1,Barefeet,17,Clear
