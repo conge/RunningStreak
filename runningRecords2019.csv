@@ -1,4 +1,5 @@
 streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),Weather
+0354,20191011,11:21 pm,15,2.1,Barefeet,7,Clear
 0353,20191010,10:19 pm,12,1.5,Barefeet,9,Clear
 0352,20191009,10:00 pm,22,2.9,Barefeet,3,Clear
 0351,20191008,10:12 pm,22,3.0,Barefeet,6,Clear
