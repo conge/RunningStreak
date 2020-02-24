@@ -1,4 +1,5 @@
 streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),Weather
+0095,20200223,02:58 pm,20,2.3,Xero01,4,Clear
 0094,20200222,10:19 am,20,2.4,Xero01,6,Cloudy
 0093,20200221,07:59 am,20,2.8,Xero01,5,Sunny
 0092,20200220,07:47 am,34,4.3,Xero01,3,Sunny
