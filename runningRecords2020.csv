@@ -1,4 +1,5 @@
 streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),Weather
+0109,20200308,03:21 pm,22,3.0,Fitkicks02,7,Sunny
 0108,20200307,08:31 am,20,3.0,Fitkicks02,3,Cloudy
 0107,20200306,07:32 am,20,2.6,Fitkicks02,5,Rainy
 0106,20200305,08:59 pm,20,2.5,Fitkicks02,12,Rainy
