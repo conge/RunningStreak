@@ -1,11 +1,12 @@
 streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),Weather
+0353,20201107,05:59 pm,16,1.8,Fitkicks02,07,Clear
 0352,20201106,08:45 am,18,1.6,Barefoot,12,Cloudy
 0351,20201105,08:11 am,35,3.5,Barefoot,13,Cloudy
 0350,20201104,08:09 am,36,3.8,Barefoot,12,Rainy
 0349,20201103,08:06 am,39,3.8,Barefoot,09,Rainy
 0348,20201102,08:09 am,44,4.0,Barefoot,04,Sunny
 0347,20201101,08:23 am,19,1.5,Barefoot,13,Sunny
-0346,20201031,09:50 pm,23,2.4,Fitkics02,06,Clear
+0346,20201031,09:50 pm,23,2.4,Fitkicks02,06,Clear
 0345,20201030,02:23 pm,28,3.2,Barefoot,13,Sunny
 0344,20201029,08:13 am,43,4.5,Barefoot,09,Cloudy
 0343,20201028,08:11 am,44,4.4,Barefoot,09,Cloudy
