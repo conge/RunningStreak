@@ -1,0 +1,167 @@
+---
+title: "The analysis of my 2020 - Running"
+output: html_notebook
+
+---
+
+```{r setup}
+knitr::opts_chunk$set(echo = F)
+```
+
+```{r libs,echo=F}
+library(tidyverse)
+library(lubridate)
+```
+
+```{r read and fix data, echo=F}
+df16 = read.csv("../runningRecords2016.csv", check.names = F)
+df17 = read.csv("../runningRecords2017.csv", check.names = F)
+df18_1 <- read.csv("../runningRecords2018.csv", check.names = F)
+df18_2 <- read.csv("../runningRecords2018_reload.csv", check.names = F)
+df19_1 <- read.csv("../runningRecords2019.csv", check.names = F)
+df19_2 <- read.csv("../runningRecords2019_reload.csv", check.names = F)
+df20 <- read.csv("../runningRecords2020.csv", check.names = F)
+
+df <- dplyr::bind_rows(list(df16, df17,df18_1,df18_2,df19_1,df19_2,df20))
+df$Shoes[df$Shoes=="Barefeet"] <- "Barefoot"
+df$date <- as.Date(as.character(df$date), "%Y%m%d")
+df$week = as.integer(format(df$date, "%W")) + 1  # Week starts at 1
+df$Year <- format(df$date, "%Y")
+df$day = factor(weekdays(df$date, T), 
+                 levels = rev(c("Mon", "Tue", "Wed", "Thu",
+                                "Fri", "Sat", "Sun")))
+
+
+# create breaks
+breaks <- hour(hm("00:00", "5:00", "11:00", "13:00", "18:00","22:00","23:59"))
+# labels for the breaks
+labels <- c("Night", "Morning", "Noon","Afternoon", "Evening","Night")
+df$Time_of_day <- cut(x=hour(parse_date_time(df$startTime, '%I:%M%p')), breaks = breaks, labels = labels, include.lowest=TRUE)
+df$weather[df$weather %in%  c('Clear','Sunn','Sunny','Fair')] <- 'Sunny'
+df$weather[df$weather %in%  c('Cloudy','Mostly Cloudy','Partly Cloudy')] <- 'Cloudy'
+df$weather[df$weather %in%  c('Smog','Smoky','Smoke')] <- 'Smog'
+df$weather[df$weather %in%  c('Fog','Foggy')] <- 'Foggy'
+df$weather[df$weather %in%  c('icy droppings','Rain')] <- 'Rainy'
+
+## read and combine all the running files.
+
+```
+
+
+```{r}
+
+summary_table <- df %>% 
+  group_by(Year) %>% summarize("Running days" = n()
+                               , "Total time" = sum(`runningTime(min)`)
+                               , "Average time" = round(sum(`runningTime(min)`)/n(),1)
+                               , "Total distance" = ""
+                               , "....miles" = round(sum(`Distance(mile)`))
+                               , "....km" = round(sum(`Distance(mile)`) * 1.609344)
+                               , "Average distance" = ""
+                               , "...miles" = round(sum(`Distance(mile)`)/n(),1)
+                               , "...km" = round(sum(`Distance(mile)`) * 1.609344/n(),1)
+                               , "Average Pace" = ""
+                               , "....min per mile" = round(`Total time` / `....miles`, 2)
+                               , "....min per km" = round(`Total time` / `....km`, 2)
+                               , "Barefoot run, n(%)"= 
+                                 paste0(sum(Shoes=="Barefoot"),
+                                        " (",
+                                        round(sum(Shoes=="Barefoot")/`Running days`,3) * 100,
+                                        ")")
+                               , "Time of the Day,n (%)" = ""
+                               , "....Morning... 05am-11am"=
+                                 paste0(sum(Time_of_day=="Morning"),
+                                        " (",
+                                        round(sum(Time_of_day=="Morning")/`Running days`,3) * 100,
+                                        ")")
+                               , "....Afternoon 01pm-06pm"=
+                                 paste0(sum(Time_of_day=="Afternoon"),
+                                        " (",
+                                        round(sum(Time_of_day=="Afternoon")/`Running days`,3) * 100,
+                                        ")")
+                               , "....Evening... 06pm-10pm"=
+                                 paste0(sum(Time_of_day=="Evening"),
+                                        " (",
+                                        round(sum(Time_of_day=="Evening")/`Running days`,3) * 100,
+                                        ")")
+                               , "....Night....... 10pm-05am"=
+                                 paste0(sum(Time_of_day=="Night"),
+                                        " (",
+                                        round(sum(Time_of_day=="Night")/`Running days`,3) * 100,
+                                        ")")
+                               , "Weather, n(%)" = ""
+                               , "....Sunny" =
+                                 paste0(sum(weather=="Sunny"),
+                                        " (",
+                                        round(sum(weather=="Sunny")/`Running days`,3) * 100,
+                                        ")")
+                               , "....Rainy" =
+                                 paste0(sum(weather=="Rainy"),
+                                        " (",
+                                        round(sum(weather=="Rainy")/`Running days`,3) * 100,
+                                        ")")
+                               , "....Cloudy" =
+                                 paste0(sum(weather=="Cloudy"),
+                                        " (",
+                                        round(sum(weather=="Cloudy")/`Running days`,3) * 100,
+                                        ")")
+                               , "....Smog" =
+                                 paste0(sum(weather=="Smog"),
+                                        " (",
+                                        round(sum(weather=="Smog")/`Running days`,3) * 100,
+                                        ")")
+                                  )
+
+t(summary_table) %>% 
+  kableExtra::kbl(caption = "Running Sammry - since 2016") %>%
+  kableExtra::kable_classic(full_width = F, html_font = "Cambria")
+
+```
+
+```{r plots}
+# code adapted from https://vuorre.netlify.app/post/2016/03/24/github-style-waffle-plots-in-r/
+
+library(viridis)  # Color palette
+library(ggthemes)
+gh_waffle <- function(data, name="", pal="D", dir = -1){
+    
+    p <- ggplot(data, aes(x = week, y = day, fill = fills)) +
+        scale_fill_viridis(name=name, 
+                           option = pal,  # Variable color palette
+                           direction = dir,  # Variable color direction
+                           na.value = "grey93",
+                           limits = c(0, max(data$fills))) +
+        geom_tile(color = "white", size = 0.4) +
+        facet_wrap("Year", ncol = 1) +
+        scale_x_continuous(
+            expand = c(0, 0),
+            breaks = seq(1, 52, length = 12),
+            labels = c("Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                       "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")) +
+        theme_tufte(base_family = "Helvetica") +
+        theme(axis.title = element_blank(),
+              axis.ticks = element_blank(),
+              legend.position = "bottom",
+              legend.key.width = unit(1, "cm"),
+              strip.text = element_text(hjust = 0.01, face = "bold", size = 12))
+    
+    print(p)
+}
+
+```
+
+```{r daily_time, eval=F}
+df$fills <- df$`runningTime(min)`
+gh_waffle(df, "Minutes")
+```
+## Length of each run
+
+```{r daily_minutes}
+df$fills <- df$`runningTime(min)`
+gh_waffle(df[df$Year=='2020', ], 'Time (minutes)')
+```
+## Distance of each run
+```{r daily_miles}
+df$fills <- df$`Distance(mile)`
+gh_waffle(df[df$Year=='2020', ], 'Miles')
+```
