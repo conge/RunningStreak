@@ -1,4 +1,4 @@
-streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),Weather
+streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
 0041,20191231,07:10 am,20,2.2,Fitkicks,5,Cloudy
 0040,20191230,07:34 am,20,2.6,Xero01,6,Rainy
 0039,20191229,07:28 am,24,3.3,Xero01,6,Cloudy
