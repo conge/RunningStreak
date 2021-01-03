@@ -1,6 +1,6 @@
 Starting on 01-01-2016, I decided to run at least one mile a day every day for the rest of my life. 
 
-And I keep a record here, as a method to keep myself motivated. I also write short posts weekly in Chinese to reflect on my running. [->Link to all my current posts<-](https://www.jianshu.com/nb/30892427). and [Archive](https://www.jianshu.com/nb/2906146).
+And I keep a record here, as a method to keep myself motivated. I also write short posts weekly in Chinese to reflect on my running. [->Link to all my current posts<-](https://conge.github.io/category/#%E6%8A%98%E8%BF%94%E7%82%B9).
 
 See my running records below:
 
