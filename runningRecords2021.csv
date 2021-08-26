@@ -1,4 +1,5 @@
 streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
+0645,20210825,08:35 am,32,3.8,Barefoot,14,Sunny
 0644,20210824,08:33 am,31,3.9,Barefoot,13,Sunny
 0643,20210823,11:40 pm,19,2.2,Barefoot,14,Clear
 0642,20210822,07:41 am,28,3.2,Native,15,Cloudy
