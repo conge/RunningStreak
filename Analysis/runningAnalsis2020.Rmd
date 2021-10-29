@@ -21,8 +21,9 @@ df18_2 <- read.csv("../runningRecords2018_reload.csv", check.names = F)
 df19_1 <- read.csv("../runningRecords2019.csv", check.names = F)
 df19_2 <- read.csv("../runningRecords2019_reload.csv", check.names = F)
 df20 <- read.csv("../runningRecords2020.csv", check.names = F)
+df21 <- read.csv("../runningRecords2021.csv", check.names = F)
 
-df <- dplyr::bind_rows(list(df16, df17,df18_1,df18_2,df19_1,df19_2,df20))
+df <- dplyr::bind_rows(list(df16, df17,df18_1,df18_2,df19_1,df19_2,df20,df21))
 df$Shoes[df$Shoes=="Barefeet"] <- "Barefoot"
 df$date <- as.Date(as.character(df$date), "%Y%m%d")
 df$week = as.integer(format(df$date, "%W")) + 1  # Week starts at 1
@@ -158,10 +159,10 @@ gh_waffle(df, "Minutes")
 
 ```{r daily_minutes}
 df$fills <- df$`runningTime(min)`
-gh_waffle(df[df$Year=='2020', ], 'Time (minutes)')
+gh_waffle(df[df$Year=='2021', ], 'Time (minutes)')
 ```
 ## Distance of each run
 ```{r daily_miles}
 df$fills <- df$`Distance(mile)`
-gh_waffle(df[df$Year=='2020', ], 'Miles')
+gh_waffle(df[df$Year=='2021', ], 'Miles')
 ```

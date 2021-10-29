@@ -10,7 +10,7 @@ My inspiration came from the [United States Running Streak Association, Inc.][1]
 
 ### Visuals of my running history: 2016 - 2020
 
-![](./overview_plot_2020.png)
+![](./overview_plot.png)
 
 
 
