@@ -8,9 +8,13 @@ See my running records below:
 
 My inspiration came from the [United States Running Streak Association, Inc.][1], although I am not a member but the Association are full of people who keep running part of their daily routine.
 
-### Visuals of my running history: 2016 - 2020
+### Visuals of my running history: 2016 - 2021
 
 ![](./overview_plot.png)
+
+### Summary of my running history:
+
+![](./yearly_overview.png)
 
 
 

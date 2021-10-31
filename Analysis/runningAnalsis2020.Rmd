@@ -113,9 +113,13 @@ summary_table <- df %>%
                                         ")")
                                   )
 
-t(summary_table) %>% 
-  kableExtra::kbl(caption = "Running Sammry - since 2016") %>%
+running_summary <- t(summary_table) %>% 
+  kableExtra::kbl(caption = paste0("Running Sammry, ", min(df$Year)," to ",max(df$Year))) %>%
   kableExtra::kable_classic(full_width = F, html_font = "Cambria")
+
+running_summary %>% kableExtra::save_kable(file = '../yearly_overview.png')
+
+running_summary
 
 ```
 
@@ -146,14 +150,17 @@ gh_waffle <- function(data, name="", pal="D", dir = -1){
               legend.key.width = unit(1, "cm"),
               strip.text = element_text(hjust = 0.01, face = "bold", size = 12))
     
-    print(p)
+    p
 }
 
 ```
 
 ```{r daily_time, eval=F}
 df$fills <- df$`runningTime(min)`
-gh_waffle(df, "Minutes")
+w = gh_waffle(df, "Minutes")
+
+print(w)
+ggsave("../overview_plot.png",width = 16, height = 14 )
 ```
 ## Length of each run
 
