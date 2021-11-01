@@ -1,5 +1,5 @@
 ---
-title: "The analysis of my 2020 - Running"
+title: "The analysis of my Running"
 output: html_notebook
 
 ---
@@ -168,7 +168,7 @@ ggsave("../overview_plot.png",width = 16, height = 14 )
 df$fills <- df$`runningTime(min)`
 gh_waffle(df[df$Year=='2021', ], 'Time (minutes)')
 ```
-## Distance of each run
+## 2021
 ```{r daily_miles}
 df$fills <- df$`Distance(mile)`
 gh_waffle(df[df$Year=='2021', ], 'Miles')
