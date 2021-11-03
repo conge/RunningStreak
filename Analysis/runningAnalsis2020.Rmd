@@ -42,7 +42,8 @@ df$weather[df$weather %in%  c('Clear','Sunn','Sunny','Fair')] <- 'Sunny'
 df$weather[df$weather %in%  c('Cloudy','Mostly Cloudy','Partly Cloudy')] <- 'Cloudy'
 df$weather[df$weather %in%  c('Smog','Smoky','Smoke')] <- 'Smog'
 df$weather[df$weather %in%  c('Fog','Foggy')] <- 'Foggy'
-df$weather[df$weather %in%  c('icy droppings','Rain')] <- 'Rainy'
+df$weather[df$weather %in%  c('Icy droppings','icy droppings','Rain')] <- 'Rainy'
+df$weather[df$weather %in%  c('Snow','Snowy')] <- 'Snowy'
 
 ## read and combine all the running files.
 
@@ -100,6 +101,11 @@ summary_table <- df %>%
                                  paste0(sum(weather=="Rainy"),
                                         " (",
                                         round(sum(weather=="Rainy")/`Running days`,3) * 100,
+                                        ")")
+                               , "....Snowy" =
+                                 paste0(sum(weather=="Snowy"),
+                                        " (",
+                                        round(sum(weather=="Snowy")/`Running days`,3) * 100,
                                         ")")
                                , "....Cloudy" =
                                  paste0(sum(weather=="Cloudy"),
