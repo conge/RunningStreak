@@ -120,7 +120,7 @@ summary_table <- df %>%
                                   )
 
 running_summary <- t(summary_table) %>% 
-  kableExtra::kbl(caption = paste0("Running Sammry, ", min(df$Year)," to ",max(df$Year))) %>%
+  kableExtra::kbl(caption = paste0("Running Sammry: ", min(df$Year)," - ",max(df$Year), " (updated on ",Sys.Date(),")")) %>%
   kableExtra::kable_classic(full_width = F, html_font = "Cambria")
 
 running_summary %>% kableExtra::save_kable(file = '../yearly_overview.png')
