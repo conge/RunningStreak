@@ -1,5 +1,5 @@
 streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
-0041,20191231,07:10 am,20,2.2,Fitkicks,5,Cloudy
+0041,20191231,07:10 am,20,2.2,Fitkicks01,5,Cloudy
 0040,20191230,07:34 am,20,2.6,Xero01,6,Rainy
 0039,20191229,07:28 am,24,3.3,Xero01,6,Cloudy
 0038,20191228,07:12 am,24,3.4,Xero01,5,Cloudy
@@ -32,13 +32,12 @@ streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weat
 0011,20191201,09:11 pm,21,2.4,Xero01,6,Cloudy
 0010,20191130,09:01 pm,20,2.5,Barefeet,5,Cloudy
 0009,20191129,10:05 pm,20,2.0,Barefeet,-1,Clear
-0008,20191128,11:49 am,25,2.9,Fitkicks,3,Sunny
+0008,20191128,11:49 am,25,2.9,Fitkicks01,3,Sunny
 0007,20191127,11:32 pm,20,2.4,Barefeet,4,Clear
 0006,20191126,07:18 pm,18,1.6,Barefeet,5,Clear
 0006,20191126,04:56 pm,40,4.4,Barefeet,7,Clear
 0005,20191125,09:14 pm,20,2.4,Barefeet,5,Clear
-0004,20191124,04:32 pm,20,2.6,Fitkicks,9,Cloudy
+0004,20191124,04:32 pm,20,2.6,Fitkicks01,9,Cloudy
 0003,20191123,04:53 pm,17,1.8,Barefeet,9,Cloudy
 0002,20191122,10:23 pm,17,2.0,Barefeet,4,Cloudy
 0001,20191121,09:07 am,20,2.4,Barefeet,5,Sunny
-
