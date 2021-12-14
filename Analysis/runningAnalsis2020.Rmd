@@ -161,7 +161,7 @@ gh_waffle <- function(data, name="", pal="D", dir = -1){
 
 ```
 
-```{r daily_time, eval=F}
+```{r daily_time, eval=T}
 df$fills <- df$`runningTime(min)`
 w = gh_waffle(df, "Minutes")
 
@@ -178,4 +178,5 @@ gh_waffle(df[df$Year=='2021', ], 'Time (minutes)')
 ```{r daily_miles}
 df$fills <- df$`Distance(mile)`
 gh_waffle(df[df$Year=='2021', ], 'Miles')
+table(df$Year,df$Shoes)
 ```
