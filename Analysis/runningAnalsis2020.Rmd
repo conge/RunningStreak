@@ -178,5 +178,5 @@ gh_waffle(df[df$Year=='2021', ], 'Time (minutes)')
 ```{r daily_miles}
 df$fills <- df$`Distance(mile)`
 gh_waffle(df[df$Year=='2021', ], 'Miles')
-table(df$Year,df$Shoes)
+table(df$Shoes,df$Year)
 ```
