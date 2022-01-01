@@ -11,6 +11,67 @@ knitr::opts_chunk$set(echo = F)
 ```{r libs,echo=F}
 library(tidyverse)
 library(lubridate)
+library(viridis)  # Color palette
+library(ggthemes)
+```
+
+```{r funcitons}
+gen_dates_from_year <- function(y){
+  d <- data_frame(
+    date = as.Date(0:(as.Date(paste0(y,"-12-31")) - as.Date(paste0(y,"-01-01")) ), origin=paste0(y,"-01-01")),
+    week = as.integer(format(date, "%W")) + 1,  # Week starts at 1
+     Year = format(date, "%Y"),
+     day = factor(weekdays(date, T), 
+                  levels = rev(c("Mon", "Tue", "Wed", "Thu","Fri", "Sat", "Sun")))
+  )
+  d
+  
+}
+
+fill_empty_dates <- function(data) {
+  yr <- unique(data$Year)
+  mylist <- list()
+  for (i in 1:length(yr)) {
+    mylist[[i]] <- gen_dates_from_year(yr[i])
+    }
+  d <- do.call("rbind",mylist)
+  
+  df <- merge(x=d,y=data,by=c("date","week","Year","day" ),all.x=TRUE)
+  
+  df
+}
+
+
+
+
+gh_waffle <- function(data, name="", pal="D", dir = -1){
+  # code adapted from https://vuorre.netlify.app/post/2016/03/24/github-style-waffle-plots-in-r/
+  
+  data <- fill_empty_dates(data) # added to plot whole year data when only partial data provided
+  
+  p <- ggplot(data, aes(x = week, y = day, fill = fills)) +
+        scale_fill_viridis(name=name, 
+                           option = pal,  # Variable color palette
+                           direction = dir,  # Variable color direction
+                           na.value = "grey93",
+                           limits = c(0, max(data$fills))) +
+        geom_tile(color = "white", size = 0.4) +
+        facet_wrap("Year", ncol = 1) +
+        scale_x_continuous(
+            expand = c(0, 0),
+            breaks = seq(1, 52, length = 12),
+            labels = c("Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                       "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")) +
+        theme_tufte(base_family = "Helvetica") +
+        theme(axis.title = element_blank(),
+              axis.ticks = element_blank(),
+              legend.position = "bottom",
+              legend.key.width = unit(1, "cm"),
+              strip.text = element_text(hjust = 0.01, face = "bold", size = 12))
+    
+    p
+}
+
 ```
 
 ```{r read and fix data, echo=F}
@@ -22,8 +83,9 @@ df19_1 <- read.csv("../runningRecords2019.csv", check.names = F)
 df19_2 <- read.csv("../runningRecords2019_reload.csv", check.names = F)
 df20 <- read.csv("../runningRecords2020.csv", check.names = F)
 df21 <- read.csv("../runningRecords2021.csv", check.names = F)
+df22 <- read.csv("../runningRecords2022.csv", check.names = F)
 
-df <- dplyr::bind_rows(list(df16, df17,df18_1,df18_2,df19_1,df19_2,df20,df21))
+df <- dplyr::bind_rows(list(df16, df17,df18_1,df18_2,df19_1,df19_2,df20,df21,df22))
 df$Shoes[df$Shoes=="Barefeet"] <- "Barefoot"
 df$date <- as.Date(as.character(df$date), "%Y%m%d")
 df$week = as.integer(format(df$date, "%W")) + 1  # Week starts at 1
@@ -120,7 +182,7 @@ summary_table <- df %>%
                                   )
 
 running_summary <- t(summary_table) %>% 
-  kableExtra::kbl(caption = paste0("Running Sammry: ", min(df$Year)," - ",max(df$Year), " (updated on ",Sys.Date(),")")) %>%
+  kableExtra::kbl(caption = paste0("Running Summary: ", min(df$Year)," - ",max(df$Year), " (updated on ",Sys.Date(),")")) %>%
   kableExtra::kable_classic(full_width = F, html_font = "Cambria")
 
 running_summary %>% kableExtra::save_kable(file = '../yearly_overview.png')
@@ -130,34 +192,7 @@ running_summary
 ```
 
 ```{r plots}
-# code adapted from https://vuorre.netlify.app/post/2016/03/24/github-style-waffle-plots-in-r/
 
-library(viridis)  # Color palette
-library(ggthemes)
-gh_waffle <- function(data, name="", pal="D", dir = -1){
-    
-    p <- ggplot(data, aes(x = week, y = day, fill = fills)) +
-        scale_fill_viridis(name=name, 
-                           option = pal,  # Variable color palette
-                           direction = dir,  # Variable color direction
-                           na.value = "grey93",
-                           limits = c(0, max(data$fills))) +
-        geom_tile(color = "white", size = 0.4) +
-        facet_wrap("Year", ncol = 1) +
-        scale_x_continuous(
-            expand = c(0, 0),
-            breaks = seq(1, 52, length = 12),
-            labels = c("Jan", "Feb", "Mar", "Apr", "May", "Jun",
-                       "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")) +
-        theme_tufte(base_family = "Helvetica") +
-        theme(axis.title = element_blank(),
-              axis.ticks = element_blank(),
-              legend.position = "bottom",
-              legend.key.width = unit(1, "cm"),
-              strip.text = element_text(hjust = 0.01, face = "bold", size = 12))
-    
-    p
-}
 
 ```
 
@@ -178,5 +213,19 @@ gh_waffle(df[df$Year=='2021', ], 'Time (minutes)')
 ```{r daily_miles}
 df$fills <- df$`Distance(mile)`
 gh_waffle(df[df$Year=='2021', ], 'Miles')
+
+```
+
+## 2022
+```{r 2022 daily_miles}
+df$fills <- df$`Distance(mile)`
+gh_waffle(df[df$Year=='2022', ], 'Miles')
 table(df$Shoes,df$Year)
+```
+
+``` {r}
+
+
+cat(paste(head(d$date,1), tail(d$date,1)))
+
 ```
