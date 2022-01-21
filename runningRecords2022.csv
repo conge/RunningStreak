@@ -1,4 +1,5 @@
 streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
+0794,20220121,09:04 am,30,3.8,Barefoot,06,Cloudy
 0793,20220120,09:39 am,31,3.8,Barefoot,11,Cloudy
 0792,20220119,02:39 pm,21,2.5,Barefoot,09,Cloudy
 0791,20220118,01:41 pm,21,2.4,Barefoot,08,Cloudy
