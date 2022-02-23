@@ -1,4 +1,5 @@
 streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
+0826,20220222,05:03 pm,21,2.4,Barefoot,00,Cloudy
 0825,20220221,12:45 am,36,4.8,Barefoot,05,Cloudy
 0824,20220220,03:20 pm,30,3.8,Barefoot,07,Cloudy
 0823,20220219,10:48 pm,20,2.3,Barefoot,06,Cloudy
