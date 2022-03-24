@@ -225,3 +225,4 @@ summary_shoes <- df %>%
 summary_shoes
 
 ```
+
