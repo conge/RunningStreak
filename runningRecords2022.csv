@@ -1,4 +1,5 @@
 streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
+0873,20220410,10:58 am,20,2.0,VaporGlove3,03,Cloudy
 0872,20220409,06:33 am,30,3.8,VaporGlove3,04,Sunny
 0871,20220408,06:31 am,38,4.8,Barefoot,09,Cloudy
 0870,20220407,08:53 pm,38,4.8,VaporGlove3,17,Cloudy
