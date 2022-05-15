@@ -222,6 +222,7 @@ table(df$Shoes,df$Year)
 summary_shoes <- df %>% 
   group_by(Shoes) %>% summarize("mileage" = sum(`Distance(mile)`))
 
+
 summary_shoes
 
 ```
