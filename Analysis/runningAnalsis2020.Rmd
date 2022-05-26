@@ -62,7 +62,7 @@ gh_waffle <- function(data, name="", pal="D", dir = -1){
             breaks = seq(1, 52, length = 12),
             labels = c("Jan", "Feb", "Mar", "Apr", "May", "Jun",
                        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")) +
-        theme_tufte(base_family = "Helvetica") +
+        #theme_tufte(base_family = "Helvetica") +
         theme(axis.title = element_blank(),
               axis.ticks = element_blank(),
               legend.position = "bottom",
