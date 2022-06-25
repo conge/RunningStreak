@@ -4,3 +4,6 @@
 .Rhistory
 *.Rproj
 .RData
+Analysis/executing
+Analysis/last-used
+Analysis/running
