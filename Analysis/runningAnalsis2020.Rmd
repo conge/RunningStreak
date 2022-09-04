@@ -226,4 +226,7 @@ summary_shoes <- df %>%
 summary_shoes
 
 ```
+```{r}
+df[df$Year=='2022', ]
 
+```
