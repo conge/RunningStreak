@@ -1,6 +1,7 @@
 streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
-1082,20221005,10:52 am,93,13.1,Barefoot,08,Cloudy
-1081,20221004,02:32 pm,26,3.4,Barefoot,13,Cloudy
+1083,20221106,10:40 am,17,1.9,Barefoot,05,Cloudy
+1082,20221105,10:52 am,93,13.1,Barefoot,08,Cloudy
+1081,20221104,02:32 pm,26,3.4,Barefoot,13,Cloudy
 1080,20221103,12:56 pm,40,5.4,Barefoot,05,Rainy
 1079,20221102,11:38 am,31,3.4,Barefoot,06,Clear
 1078,20221101,12:18 pm,21,2.2,Barefoot,08,Cloudy
