@@ -1,4 +1,5 @@
 streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
+1101,20221124,11:08 am,16,1.6,VaporGlove3,07,Sunny
 1100,20221123,04:45 pm,15,1.4,VaporGlove3,10,Clear
 1099,20221122,04:56 pm,21,2.4,Native,08,Clear
 1098,20221121,02:49 pm,17,2.0,Native,08,Cloudy
