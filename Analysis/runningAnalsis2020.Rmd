@@ -84,8 +84,10 @@ df19_2 <- read.csv("../runningRecords2019_reload.csv", check.names = F)
 df20 <- read.csv("../runningRecords2020.csv", check.names = F)
 df21 <- read.csv("../runningRecords2021.csv", check.names = F)
 df22 <- read.csv("../runningRecords2022.csv", check.names = F)
+df23 <- read.csv("../runningRecords2023.csv", check.names = F)
 
-df <- dplyr::bind_rows(list(df16, df17,df18_1,df18_2,df19_1,df19_2,df20,df21,df22))
+df <- dplyr::bind_rows(list(df16,df17,df18_1,df18_2,df19_1,df19_2,
+                            df20,df21,df22))
 df$Shoes[df$Shoes=="Barefeet"] <- "Barefoot"
 df$date <- as.Date(as.character(df$date), "%Y%m%d")
 df$week = as.integer(format(df$date, "%W")) + 1  # Week starts at 1
@@ -115,7 +117,8 @@ df$weather[df$weather %in%  c('Snow','Snowy')] <- 'Snowy'
 ```{r}
 
 summary_table <- df %>% 
-  group_by(Year) %>% summarize("Running days" = n()
+  group_by(Year) %>% summarize("Running days" = n_distinct(date)
+                               , "number of runs"= n()
                                , "Total time" = sum(`runningTime(min)`)
                                , "Average time" = round(sum(`runningTime(min)`)/n(),1)
                                , "Total distance" = ""
@@ -130,54 +133,54 @@ summary_table <- df %>%
                                , "Barefoot run, n(%)"= 
                                  paste0(sum(Shoes=="Barefoot"),
                                         " (",
-                                        round(sum(Shoes=="Barefoot")/`Running days`,3) * 100,
+                                        round(sum(Shoes=="Barefoot")/`number of runs`,3) * 100,
                                         ")")
                                , "Time of the Day,n (%)" = ""
                                , "....Morning... 05am-11am"=
                                  paste0(sum(Time_of_day=="Morning"),
                                         " (",
-                                        round(sum(Time_of_day=="Morning")/`Running days`,3) * 100,
+                                        round(sum(Time_of_day=="Morning")/`number of runs`,3) * 100,
                                         ")")
                                , "....Afternoon 01pm-06pm"=
                                  paste0(sum(Time_of_day=="Afternoon"),
                                         " (",
-                                        round(sum(Time_of_day=="Afternoon")/`Running days`,3) * 100,
+                                        round(sum(Time_of_day=="Afternoon")/`number of runs`,3) * 100,
                                         ")")
                                , "....Evening... 06pm-10pm"=
                                  paste0(sum(Time_of_day=="Evening"),
                                         " (",
-                                        round(sum(Time_of_day=="Evening")/`Running days`,3) * 100,
+                                        round(sum(Time_of_day=="Evening")/`number of runs`,3) * 100,
                                         ")")
                                , "....Night....... 10pm-05am"=
                                  paste0(sum(Time_of_day=="Night"),
                                         " (",
-                                        round(sum(Time_of_day=="Night")/`Running days`,3) * 100,
+                                        round(sum(Time_of_day=="Night")/`number of runs`,3) * 100,
                                         ")")
                                , "Weather, n(%)" = ""
                                , "....Sunny" =
                                  paste0(sum(weather=="Sunny"),
                                         " (",
-                                        round(sum(weather=="Sunny")/`Running days`,3) * 100,
+                                        round(sum(weather=="Sunny")/`number of runs`,3) * 100,
                                         ")")
                                , "....Rainy" =
                                  paste0(sum(weather=="Rainy"),
                                         " (",
-                                        round(sum(weather=="Rainy")/`Running days`,3) * 100,
+                                        round(sum(weather=="Rainy")/`number of runs`,3) * 100,
                                         ")")
                                , "....Snowy" =
                                  paste0(sum(weather=="Snowy"),
                                         " (",
-                                        round(sum(weather=="Snowy")/`Running days`,3) * 100,
+                                        round(sum(weather=="Snowy")/`number of runs`,3) * 100,
                                         ")")
                                , "....Cloudy" =
                                  paste0(sum(weather=="Cloudy"),
                                         " (",
-                                        round(sum(weather=="Cloudy")/`Running days`,3) * 100,
+                                        round(sum(weather=="Cloudy")/`number of runs`,3) * 100,
                                         ")")
                                , "....Smog" =
                                  paste0(sum(weather=="Smog"),
                                         " (",
-                                        round(sum(weather=="Smog")/`Running days`,3) * 100,
+                                        round(sum(weather=="Smog")/`number of runs`,3) * 100,
                                         ")")
                                   )
 
@@ -227,6 +230,6 @@ summary_shoes
 
 ```
 ```{r}
-df[df$Year=='2022', ]
+df[df$Year=='2023', ]
 
 ```
