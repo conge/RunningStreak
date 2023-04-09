@@ -87,7 +87,7 @@ df22 <- read.csv("../runningRecords2022.csv", check.names = F)
 df23 <- read.csv("../runningRecords2023.csv", check.names = F)
 
 df <- dplyr::bind_rows(list(df16,df17,df18_1,df18_2,df19_1,df19_2,
-                            df20,df21,df22))
+                            df20,df21,df22,df23))
 df$Shoes[df$Shoes=="Barefeet"] <- "Barefoot"
 df$date <- as.Date(as.character(df$date), "%Y%m%d")
 df$week = as.integer(format(df$date, "%W")) + 1  # Week starts at 1
@@ -210,13 +210,13 @@ ggsave("../overview_plot.png",width = 16, height = 14 )
 
 ```{r daily_minutes}
 df$fills <- df$`runningTime(min)`
-gh_waffle(df[df$Year=='2022', ], 'Time (minutes)')
+gh_waffle(df[df$Year=='2023', ], 'Time (minutes)')
 ```
 
 ## 2022
 ```{r 2022 daily_miles}
 df$fills <- df$`Distance(mile)`
-gh_waffle(df[df$Year=='2022', ], 'Miles')
+gh_waffle(df[df$Year=='2023', ], 'Miles')
 table(df$Shoes,df$Year)
 ```
 
