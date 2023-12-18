@@ -1,5 +1,6 @@
 streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
-1474,20231215,02:53 pm,33,4.56,VaporGlove2_02,11,Cloudy
+1477,20231216,12:29 pm,26,3.55,VaporGlove2_02,08,Sunny
+1475,20231215,02:53 pm,33,4.56,VaporGlove2_02,11,Cloudy
 1476,20231214,10:12 pm,28,3.64,VaporGlove2_02,07,Cloudy
 1475,20231213,11:46 pm,15,1.90,VaporGlove2_02,06,Cloudy
 1474,20231212,09:30 pm,16,1.95,VaporGlove2_02,02,Cloudy
