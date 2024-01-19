@@ -1,4 +1,6 @@
 ﻿streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
+1520,20240117,06:55 am,30,3.58,VaporGlove2_02,0,Cloudy
+1519,20240116,10:10 pm,16,1.92,VaporGlove2_02,-2,Rainy
 1518,20240115,07:34 am,28,3.62,VaporGlove2_02,-5,Sunny
 1517,20240114,09:40 pm,28,3.62,VaporGlove2_02,-2,Sunny
 1516,20240113,08:10 am,35,4.86,VaporGlove2_02,-8,Sunny
