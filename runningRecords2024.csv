@@ -1,4 +1,8 @@
 ﻿streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
+1698,20240713,07:57 am,120,16.46,AGC23,14,Sunny
+1697,20240712,06:41 am,60,8.01,AGC23,14,Sunny
+1696,20240711,08:39 am,18,2.44,AGC23,18,Sunny
+1695,20240710,06:36 am,45,5.83,VaporGlove2_02,18,Sunny
 1694,20240709,07:28 am,50,7.02,VaporGlove2_02,21,Sunny
 1693,20240708,07:43 am,25,3.17,Barefoot,21,Sunny
 1692,20240707,07:54 am,83,10.34,VaporGlove2_02,16,Sunny
