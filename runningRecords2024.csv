@@ -1,4 +1,15 @@
 ﻿streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
+1733,20240818,06:24 am,21,2.29,AGC23,21,Sunny
+1733,20240818,05:46 am,31,3.77,AGC23,22,Cloudy
+1732,20240817,06:53 am,20,2.17,AGC23,24,Cloudy
+1732,20240817,04:36 am,113,13.53,AGC23,24,Cloudy
+1732,20240817,04:09 am,14,1.59,Barefoot,24,Cloudy
+1731,20240816,06:22 am,31,4.05,Barefoot,25,Cloudy
+1730,20240815,06:12 am,19,2.01,Barefoot,23,Cloudy
+1729,20240814,06:49 am,15,1.40,Barefoot,23,Sunny
+1729,20240814,05:18 am,55,5.77,Barefoot,21,Clear
+1728,20240813,05:23 am,54,7.42,Barefoot,21,Clear
+1727,20240812,06:27 am,41,4.88,Barefoot,19,Rainy
 1726,20240811,05:22 am,28,3.45,Barefoot,19,Cloudy
 1725,20240810,05:22 am,34,3.22,AGC23,21,Cloudy
 1724,20240809,05:19 am,17,1.45,AGC23,23,Cloudy
