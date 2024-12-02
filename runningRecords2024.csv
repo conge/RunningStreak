@@ -1,4 +1,6 @@
 ﻿streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
+1839,20241201,10:47 am,13,1.00,AGC23,03,Cloudy
+1839,20241201,08:07 am,27,3.23,AGC23,01,Cloudy
 1838,20241130,11:29 pm,19,2.08,AGC23,02,Clear
 1837,20241129,07:16 am,60,6.70,AGC23,02,Cloudy
 1836,20241128,08:28 am,19,2.34,AGC23,02,Cloudy
