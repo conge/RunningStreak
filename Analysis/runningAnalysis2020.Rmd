@@ -86,9 +86,10 @@ df21 <- read.csv("../runningRecords2021.csv", check.names = F)
 df22 <- read.csv("../runningRecords2022.csv", check.names = F)
 df23 <- read.csv("../runningRecords2023.csv", check.names = F)
 df24 <- read.csv("../runningRecords2024.csv", check.names = F)
+df25 <- read.csv("../runningRecords2025.csv", check.names = F)
 
 df <- dplyr::bind_rows(list(df16,df17,df18_1,df18_2,df19_1,df19_2,
-                            df20,df21,df22,df23,df24))
+                            df20,df21,df22,df23,df24,df25))
 df$Shoes[df$Shoes=="Barefeet"] <- "Barefoot"
 df$date <- as.Date(as.character(df$date), "%Y%m%d")
 df$week = as.integer(format(df$date, "%W")) + 1  # Week starts at 1
