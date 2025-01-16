@@ -212,13 +212,13 @@ ggsave("../overview_plot.png",width = 16, height = 14 )
 
 ```{r daily_minutes}
 df$fills <- df$`runningTime(min)`
-gh_waffle(df[df$Year=='2024', ], 'Time (minutes)')
+gh_waffle(df[df$Year=='2025', ], 'Time (minutes)')
 ```
 
-## 2022
-```{r 2022 daily_miles}
+## 2025
+```{r 2025 daily_miles}
 df$fills <- df$`Distance(mile)`
-gh_waffle(df[df$Year=='2024', ], 'Miles')
+gh_waffle(df[df$Year=='2025', ], 'Miles')
 table(df$Shoes,df$Year)
 ```
 
