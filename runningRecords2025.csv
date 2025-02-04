@@ -1,4 +1,6 @@
 ﻿streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
+1900,20250131,07:23 am,34,4.01,SL2,05,Cloudy
+1900,20250131,06:29 am,52,6.04,SL2,05,Rainy
 1899,20250130,10:28 pm,89,10.51,SL2,06,Rainy
 1899,20250130,10:16 am,41,5.29,SL2,02,Cloudy
 1899,20250130,08:02 am,38,4.47,SL2,01,Cloudy
