@@ -232,6 +232,6 @@ summary_shoes
 
 ```
 ```{r}
-df[df$Year=='2024', ]
+df[df$Year=='2025', ]
 
 ```
