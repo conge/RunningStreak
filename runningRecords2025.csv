@@ -1,5 +1,6 @@
 ﻿streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
-1962,20250403,10:55 pm,50,6.04,AGC23,07,Sunny
+1963,30250404,09:33 am,30,3.31,AGC23,06,Sunny
+1962,20250403,10:55 pm,50,6.04,AGC23,07,Clear
 1961,20250402,06:32 am,92,12.07,AGC23,06,Rainy
 1960,20250401,10:29 pm,53,6.29,AGC23,08,Rainy
 1959,20250331,10:09 pm,28,3.17,AGC23,07,Cloudy
