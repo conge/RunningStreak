@@ -1,4 +1,6 @@
 ﻿streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
+1985,20250426,08:38 am,4,0.40,VF3,09,Cloudy
+1985,20250426,07:06 am,89,13.17,VF3,09,Cloudy
 1984,20250425,06:10 am,40,5.09,VF3,08,Sunny
 1983,20250424,12:55 pm,25,3.29,VF3,15,Sunny
 1982,20250423,06:30 pm,93,12.01,SL2,05,Sunny
