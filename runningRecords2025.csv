@@ -1,4 +1,7 @@
-﻿streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather 
+﻿streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather u
+2014,20250525,07:47 am,148,15.10,SL2,11,Sunny
+2013,20250524,02:13 pm,77,11.12,VF3,19,Sunny
+2012,20250523,11:22 pm,34,4.08,SL2,12,Clear
 2011,20250522,11:23 pm,28,3.20,SL2,11,Clear
 2010,20250521,10:45 pm,52,6.07,SL2,12,Clear
 2009,20250520,10:31 pm,69,8.58,VF3,11,Cloudy
