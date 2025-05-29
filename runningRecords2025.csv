@@ -1,4 +1,5 @@
-﻿streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather u
+﻿streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
+2016,20250527,06:49 am,58,7.04,AGC23,10,Sunny
 2015,20250526,10:07 pm,29,3.04,AGC23,13,Sunny
 2014,20250525,07:47 am,148,15.10,SL2,11,Sunny
 2013,20250524,02:13 pm,77,11.12,VF3,19,Sunny
