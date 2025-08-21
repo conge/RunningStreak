@@ -1,4 +1,9 @@
 ﻿streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
+2098,20250817,10:43 pm,80,9.12,Barefoot,16,Cloudy
+2097,20250816,08:21 am,27,3.30,Boston12,20,Cloudy
+2096,20250815,07:31 am,29,3.31,Barefoot,17,Cloudy
+2095,20250814,11:54 pm,25,2.89,Boston12,19,Clear
+2094,20250813,07:32 am,62,8.04,AGC23,16,Sunny
 2093,20250812,10:59 pm,32,3.27,Barefoot,23,Clear
 2092,20250811,10:15 pm,60,7.04,Barefoot,25,Clear
 2091,20250810,11:36 am,51,6.38,AGC23,25,Sunny
