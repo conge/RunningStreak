@@ -1,4 +1,11 @@
 ﻿streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
+2140,20250928,06:43 am,23,2.30,VaporGlove3,15,Clear
+2139,20250927,09:15 am,64,6.85,VaporGlove3,15,Sunny
+2138,20250926,09:24 am,11,1.47,SL2,13,Cloudy
+2137,20250925,08:06 am,61,8.03,SL2,11,Cloudy
+2136,20250924,11:57 am,26,3.21,SL2,17,Cloudy
+2135,20250923,09:46 am,59,7.54,VaporGlove3,15,Sunny
+2134,20250922,08:58 am,43,6.07,SL2,11,Sunny
 2133,20250921,09:06 am,64,8.44,SL2,14,Rainy
 2132,20250920,08:38 am,63,7.44,SL2,12,Sunny
 2131,20250919,08:31 am,36,4.45,Barefoot,11,Sunny
