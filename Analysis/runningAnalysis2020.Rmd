@@ -13,6 +13,7 @@ library(tidyverse)
 library(lubridate)
 library(viridis)  # Color palette
 library(ggthemes)
+library(kableExtra)
 ```
 
 ```{r funcitons}
