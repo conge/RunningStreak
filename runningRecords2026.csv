@@ -1,4 +1,6 @@
 ﻿streak#,date,startTime,runningTime(min),Distance(mile),Shoes,temperature(C),weather
+2238,20260104,01:42 pm,100,10.06,Boston 12,07,Cloudy
+2238,20260104,07:44 am,48,3.36,Boston 12,01,Snowy
 2237,20260103,02:18 pm,97,10.18,Boston 12,05,Snowy
 2236,20260102,12:00 pm,114,14.34,Boston 12,07,Cloudy
 2235,20260101,10:59 pm,21,2.26,VaporGlove3,06,Rainy
