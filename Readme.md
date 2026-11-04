@@ -19,7 +19,9 @@ My inspiration came from the [United States Running Streak Association, Inc.][1]
 ### Updating the records
 
 One row per run in `runningRecords<year>.csv`, newest first, with every run on
-the same day sharing a single streak number.
+the same day sharing a single streak number. `streak#` counts consecutive days
+since the last break: each `*_reload.csv` file marks a restart, and the counter
+begins again at 1 the day running resumes.
 
 #### The daily row, by hand
 
