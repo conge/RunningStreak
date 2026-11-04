@@ -57,7 +57,17 @@ python3 sync_runs.py               # append + refresh activities.json
 
 It only appends runs newer than the last date in the CSV, continues the
 streak numbering from the CSV itself (the upstream `streak` field numbers
-differently) and leaves `Shoes` empty. Fill those in afterwards.
+differently) and leaves `Shoes` empty. Fill those in afterwards — either by
+hand, or in bulk when the habit has been steady:
+
+```sh
+python3 fill_shoes.py --dry-run --default Barefoot --rain SL2 \
+    --set 20260611:20260731 SL2 \
+    --set 20260807:20260808 "Boston 12"
+```
+
+`--default` fills every remaining blank cell, `--rain` overrides the wet days,
+and the `--set` ranges win over both, in the order given.
 
 Return point photos are picked from the phone camera roll by matching the
 photo time to the middle of a run, then converted to WebP:
