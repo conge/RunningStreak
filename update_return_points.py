@@ -20,6 +20,7 @@ from PIL import Image, ImageOps
 REPO = Path(__file__).resolve().parent
 DEFAULT_PHOTOS = Path("/Users/qli/Library/CloudStorage/OneDrive-Personal/Pictures/Camera Roll")
 DEST = REPO / "ReturnPoints"
+SKIP_FILE = DEST / ".skipped"
 
 MAX_SIDE = 1080
 QUALITY = 80
@@ -55,7 +56,13 @@ def run_windows(rows) -> dict:
 
 
 def pick_photo(candidates, windows):
-    """Photo closest to the middle of any run that day, or None."""
+    """Photo closest to the middle of any run that day, or None.
+
+    A day with a single photo on disk is accepted even when it falls outside
+    the run window - that is the rule the archive is built on.
+    """
+    if len(candidates) == 1:
+        return candidates[0]
     mids = [s + (e - s) / 2 for s, e in windows]
     lo = min(s for s, _ in windows) - timedelta(minutes=PRE_MINUTES)
     hi = max(e for _, e in windows) + timedelta(minutes=POST_MINUTES)
@@ -79,30 +86,58 @@ def main():
     ap.add_argument("--photos", type=Path, default=DEFAULT_PHOTOS)
     ap.add_argument("--since", default="",
                     help="only fill days on/after this YYYYMMDD date")
+    ap.add_argument("--pick", nargs=2, action="append", default=[],
+                    metavar=("DATE", "FILE"), help="use this photo for that day")
+    ap.add_argument("--skip", nargs="+", default=[], metavar="DATE",
+                    help="record days that should stay without a photo")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
+
+    if args.skip:
+        existing = set(SKIP_FILE.read_text().split()) if SKIP_FILE.exists() else set()
+        existing.update(args.skip)
+        SKIP_FILE.write_text("\n".join(sorted(existing)) + "\n")
+        print(f"{SKIP_FILE.name}: {len(existing)} day(s) marked to stay empty")
+
+    skipped = set(SKIP_FILE.read_text().split()) if SKIP_FILE.exists() else set()
 
     with open(args.csv, newline="", encoding="utf-8-sig") as f:
         rows = [r for r in csv.DictReader(f) if r.get("date", "").isdigit()]
 
     photos = scan_photos(args.photos)
     runs = run_windows(rows)
+    manual = {day.replace("-", ""): name for day, name in args.pick}
 
     converted, ambiguous, missing = [], [], []
     for day in sorted(runs, reverse=True):
-        if args.since and day.replace("-", "") < args.since:
+        key = day.replace("-", "")
+        if args.since and key < args.since:
             continue
-        dest = DEST / f"{day.replace('-', '')}.webp"
-        if dest.exists():
+        if key in skipped:
             continue
-        picked = pick_photo(photos.get(day, []), runs[day])
-        if picked is None:
-            missing.append((day, len(photos.get(day, []))))
+        dest = DEST / f"{key}.webp"
+        if dest.exists() and key not in manual:
             continue
-        stamp, src = picked
+        if key in manual:
+            src = args.photos / manual[key]
+            if not src.exists():
+                print(f"missing pick for {key}: {src.name}")
+                continue
+            stamp = datetime.strptime(manual[key][3:17], "%Y%m%d%H%M%S")
+        else:
+            picked = pick_photo(photos.get(day, []), runs[day])
+            if picked is None:
+                missing.append((day, len(photos.get(day, []))))
+                continue
+            stamp, src = picked
         converted.append((day, src.name, stamp.strftime("%H:%M")))
         if not args.dry_run:
-            to_webp(src, dest)
+            try:
+                to_webp(src, dest)
+            except Exception as exc:
+                converted.pop()
+                missing.append((day, len(photos.get(day, []))))
+                print(f"unreadable {src.name}: {exc}")
 
     print(f"{'would convert' if args.dry_run else 'converted'} {len(converted)} images")
     for day, name, hhmm in converted[:5]:

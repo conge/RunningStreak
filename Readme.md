@@ -71,15 +71,19 @@ python3 fill_shoes.py --dry-run --default Barefoot --rain SL2 \
 `--default` fills every remaining blank cell, `--rain` overrides the wet days,
 and the `--set` ranges win over both, in the order given.
 
-Return point photos are picked from the phone camera roll by matching the
-photo time to the middle of a run, then converted to WebP:
+Return point photos are picked from the phone camera roll: a day with a single
+photo on disk always uses it, otherwise the photo closest to the middle of the
+run wins, and days with several candidates are left for me to choose.
 
 ```sh
-python3 update_return_points.py --since 20260611 --dry-run
-python3 update_return_points.py --since 20260611
+python3 update_return_points.py --since 20260101 --dry-run
+python3 update_return_points.py --pick 20260418 IMG20260418192943.jpg
+python3 update_return_points.py --skip 20260511
 ```
 
-Days with no photo near a run are listed at the end — those still need a hand.
+`--pick` overrides the automatic choice for one day, `--skip` records a day that
+should stay empty (kept in `ReturnPoints/.skipped`) so it is not suggested
+again. The script only ever fills days that have no image yet.
 
 Finally re-knit `Analysis/runningAnalysis2020.Rmd`: it reads every
 `runningRecords*.csv` and rewrites `overview_plot.png` and
