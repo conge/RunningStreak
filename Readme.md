@@ -85,8 +85,24 @@ python3 update_return_points.py --skip 20260511
 should stay empty (kept in `ReturnPoints/.skipped`) so it is not suggested
 again. The script only ever fills days that have no image yet.
 
-Finally re-knit `Analysis/runningAnalysis2020.Rmd`: it reads every
+Finally re-knit `Analysis/runningAnalysis2020.Rmd` — it reads every
 `runningRecords*.csv` and rewrites `overview_plot.png` and
-`yearly_overview.png`.
+`yearly_overview.png`:
+
+```sh
+Rscript -e 'rmarkdown::render("Analysis/runningAnalysis2020.Rmd")'
+```
+
+That also refreshes `Analysis/runningAnalysis2020.nb.html`. To update only the
+two plots, send the notebook somewhere else:
+
+```sh
+Rscript -e 'rmarkdown::render("Analysis/runningAnalysis2020.Rmd", output_file = "/tmp/rk.html", quiet = TRUE)'
+```
+
+`render()` switches to the Rmd's own directory, so it works from the repo root
+or from `Analysis/`. The `--no-highlight deprecated` warning from pandoc is
+harmless. `yearly_overview.png` carries a `Sys.Date()` caption, so it shows a
+diff on every knit even when the numbers did not change.
 
 [1]:http://www.runeveryday.com
